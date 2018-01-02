@@ -6,6 +6,7 @@ Access the utility here:
 [Skyrim Perk Utility](https://aaronmaynard.github.io/Skyrim-Perk-Utility/ "Access utility")
 
 [![GitHub issues](https://img.shields.io/github/issues/aaronmaynard/Skyrim-Perk-Utility.svg)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/aaronmaynard/Obsidian-Tools.svg)]()
 [![license](https://img.shields.io/github/license/aaronmaynard/skyrim-perk-utility.svg)]()
 [![GitHub last commit](https://img.shields.io/github/last-commit/aaronmaynard/Skyrim-Perk-Utility.svg)]()
 [![GitHub top language](https://img.shields.io/github/languages/top/aaronmaynard/Skyrim-Perk-Utility.svg)]()
