@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    margin: 30px 20px;
+    width: auto;
+}
+
+#content {
+    margin: 0 auto;
+    text-align: left;
+    width: 600px;
+    font-size: 14px;
+    line-height: 140%;
+}

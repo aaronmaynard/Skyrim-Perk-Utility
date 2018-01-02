@@ -1,0 +1,92 @@
+html, body {
+  background: rgb(20,20,20);
+  border: none;
+  color: rgb(200,200,200);
+  font-family: Arial, helvetica, sans;
+  margin: 0 0 50px 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 150, 230);
+}
+
+a:hover {
+  color: rgb(230, 150, 100);
+}
+
+button {
+  background: rgb(30,30,30);
+  border: 1px solid rgb(0,0,0);
+  color: rgb(200,200,200);
+  cursor: pointer;
+  padding: 6px 10px;
+  margin: 0 0 0 5px;
+}
+
+button:active {
+  background: rgb(0,0,0);
+}
+
+#help, #download-reset, #download-addperks {
+  float: right;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px auto;
+  padding: 0;
+  text-align: left;
+  width: 990px;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.toolbar {
+  background: rgb(30,30,30);
+  border: 1px solid rgb(50,50,50);
+  font-size: 12px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-align: left;
+  width: 970px;
+}
+
+.caption {
+  margin: 8px 10px;
+  float: left;
+}
+
+#active-perks {
+  display: block;
+  float: left;
+  margin: 8px 8px 0 0;
+  text-align: center;
+  width: 25px;
+  font-weight: bold;
+}
+
+.clear-perks {
+  display: none;
+  float: left;
+}
+
+.footer {
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+
+.info {
+  margin: 0 auto;
+  padding: 5px 0px;
+  text-align: left;
+  width: 990px;
+  color: rgb(230, 100, 0);
+  font-size: 12px;
+}
+
+ol li {
+  margin: 0 0 20px 0;
+}
