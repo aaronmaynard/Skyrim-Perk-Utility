@@ -8,6 +8,22 @@ html, body {
   text-align: center;
 }
 
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav span{
+    display:inline-block;
+    padding:10px;
+}
+
 a {
   text-decoration: none;
   color: rgb(100, 150, 230);
@@ -18,20 +34,18 @@ a:hover {
 }
 
 button {
-  background: rgb(30,30,30);
+  background: rgb(64, 64, 64);
   border: 1px solid rgb(0,0,0);
-  color: rgb(200,200,200);
+  color: white;
   cursor: pointer;
   padding: 6px 10px;
   margin: 0 0 0 5px;
 }
 
-button:active {
+button:hover {
   background: rgb(0,0,0);
-}
+  color: rgb(255, 153, 51);
 
-#help, #download-reset, #download-addperks {
-  float: right;
 }
 
 h1 {
@@ -59,15 +73,6 @@ h1 {
   float: left;
 }
 
-#active-perks {
-  display: block;
-  float: left;
-  margin: 8px 8px 0 0;
-  text-align: center;
-  width: 25px;
-  font-weight: bold;
-}
-
 .clear-perks {
   display: none;
   float: left;
@@ -89,4 +94,39 @@ h1 {
 
 ol li {
   margin: 0 0 20px 0;
+}
+
+li span, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content span:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
