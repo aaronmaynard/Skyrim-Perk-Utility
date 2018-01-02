@@ -12,8 +12,8 @@ Access the utility here:
 [![GitHub language count](https://img.shields.io/github/languages/count/aaronmaynard/Skyrim-Perk-Utility.svg)]()
 [![Pull Requests](https://img.shields.io/badge/PR-welcome-orange.svg)]()
 
-### Skyrim Consol:
-Press the <b>~</b> key while in game to access the consol.  Then type the following
+### Skyrim Console:
+Press the <b>~</b> key while in game to access the console.  Then type the following
 
     bat <filepath>/<file name>
 The game will begin to add the perks from the file.  Give a few seconds to a minute for all of the script to load into the game.
