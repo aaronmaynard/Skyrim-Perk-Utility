@@ -21,3 +21,8 @@ The game will begin to add the perks from the file.  Give a few seconds to a min
 After you executed the scripts your character should have your desired abilities. The scripts change your level and perks, but don't change your attributes i.e. magicka, health and stamina are not affected. If you want to change them you could use the console command "player.setav health 500" etc.
 
 Pull requests welcome!
+
+## How to Contribute
+
+This is an Open Source project and we would be happy to see contributors who report bugs and file feature requests submitting pull requests as well. This project adheres to the Collaborative [code of conduct](https://github.com/aaronmaynard/Skyrim-Perk-Utility/blob/master/CODE_OF_CONDUCT.md). By participating, you expect to maintain the code of conduct. Before creating `New issue` and `Pull request`, please refer to the [template](docs).
+
