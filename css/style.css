@@ -147,13 +147,11 @@ li.dropdown {
 }
 
 .cDefault {
-  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur),
+  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default;
 }
-
 .cDownload {
-  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/download.cur),
+    cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/download.cur), pointer;
 }
-
 .cCrosshair {
-  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/crosshair.cur),
+    cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/crosshair.cur), crosshair;
 }

@@ -12,14 +12,6 @@ h1 {
     line-height: 140%;
 }
 
-.cDefault {
-  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur),
-}
-
-.cDownload {
-  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/download.cur),
-}
-
-.cCrosshair {
-  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/crosshair.cur),
+.cDefault{
+    cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default;
 }
