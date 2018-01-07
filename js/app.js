@@ -607,10 +607,10 @@
       }
     });
     $('#download-reset').click(function() {
-      return window.open("data:application/octet-stream," + (encodeURI(getResetCode())));
+      download("resetperk.txt", getResetCode());
     });
     $('#download-addperks').click(function() {
-      return window.open("data:application/octet-stream," + (encodeURI(getAddPerksCode())));
+      download("addperk.txt", getAddPerksCode());
     });
     $('#help').click(function() {
       return window.open("help.html");
@@ -623,3 +623,16 @@
     return Backbone.history.start();
   });
 }).call(this);
+
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
