@@ -26,3 +26,4 @@ Pull requests welcome!
 
 This is an Open Source project and we would be happy to see contributors who report bugs and file feature requests submitting pull requests as well. This project adheres to the Collaborative [code of conduct](https://github.com/aaronmaynard/Skyrim-Perk-Utility/blob/master/CODE_OF_CONDUCT.md). By participating, you expect to maintain the code of conduct. Before creating `New issue` and `Pull request`, please refer to the [template](docs).
 
+Please do not fix more than one issue at a time. Your pull request should only fix what is described in this issue.
