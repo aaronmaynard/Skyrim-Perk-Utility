@@ -16,9 +16,11 @@ html, body {
     padding:0;
     text-align:center;
 }
+
 .nav li{
     display:inline;
 }
+
 .nav span{
     display:inline-block;
     padding:10px;
@@ -45,7 +47,6 @@ button {
 button:hover {
   background: rgb(0,0,0);
   color: rgb(255, 153, 51);
-
 }
 
 input[type=button] {
@@ -143,4 +144,16 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.cDefault {
+    cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default;
+}
+
+.cDownload {
+    cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/download.cur), pointer;
+}
+
+.cCrosshair {
+    cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/crosshair.cur), crosshair;
 }
