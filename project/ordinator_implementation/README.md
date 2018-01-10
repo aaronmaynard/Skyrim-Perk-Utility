@@ -8,7 +8,8 @@ Here's a screenshot of just a few perk trees we will be implementing:
 ![Enchanting, Heavy Armor, Illusion](https://staticdelivery.nexusmods.com/mods/1704/images/1137-0-1492367685.png "Perk Tree Overhaul")
 
 #### Whats the progress on the project?
-You can view our progress [HERE](https://github.com/aaronmaynard/Skyrim-Perk-Utility/projects/1).
+You can view our progress [HERE](https://github.com/aaronmaynard/Skyrim-Perk-Utility/projects/1).  When we are done, it will look a little something like this:
+![Ordinator Testing](https://i.imgur.com/qlTYIn1.png "Ordinator Testing")
 
 #### How can I contribute?
 -  Comment in the issue that you would like to do it.
