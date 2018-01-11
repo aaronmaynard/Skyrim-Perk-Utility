@@ -71,7 +71,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [3],
           id: ['00000000']
         }, {
           name: 'N5 - Dream Theif',
@@ -87,7 +87,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [5],
           id: ['00000000']
         }, {
           name: 'N7 - Fickle Fate',
@@ -95,7 +95,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [6],
           id: ['00000000']
         }, {
           name: 'N8 - Master of the Mind',
@@ -103,7 +103,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [7],
           id: ['00000000']
         }, {
           name: 'N9 - Dream Charm',
@@ -111,7 +111,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [6],
           id: ['00000000']
         }, {
           name: 'N10 - Dream Geas',
@@ -119,7 +119,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [9],
           id: ['00000000']
         }, {
           name: 'N11 - Commanding Presence',
@@ -135,7 +135,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [11],
           id: ['00000000']
         }, {
           name: 'N13 - Imperious Splendor',
@@ -143,7 +143,7 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
-          deps: [0],
+          deps: [12],
           id: ['00000000']
         }, {
           name: 'N14 - Protect Your God',
@@ -151,7 +151,127 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
+          deps: [13],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Imposing Presence',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Shadow Refuge',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [16],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Wilting',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Neverworld',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [17],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Terror',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [17],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Soulcrusher',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [19],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Pandemonium',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [19],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Nightfall',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [21],
+          id: ['00000000']
+        }, {
+          name: 'N23 - The Reaper Comes',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [17],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Lamb to the Slaughter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [23],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Heavy Weighs the Tapestry',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [24],
+          id: ['00000000']
+        }, {
+          name: 'N26 - Entice Barter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N27 - Nemesis',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15, 26],
+          id: ['00000000']
+        }, {
+          name: 'N28 - Blind Guardian',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [27],
+          id: ['00000000']
+        }, {
+          name: 'N29 - Wraithwalker',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [25, 28],
           id: ['00000000']
         }
       ]
