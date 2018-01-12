@@ -9,7 +9,7 @@ Here's a screenshot of just a few perk trees we will be implementing:
 
 #### Whats the progress on the project?
 You can view our progress [HERE](https://github.com/aaronmaynard/Skyrim-Perk-Utility/projects/1).  When we are done, it will look a little something like this:
-![Ordinator Testing](https://i.imgur.com/qlTYIn1.png "Ordinator Testing")
+![Example](https://raw.githubusercontent.com/aaronmaynard/Skyrim-Perk-Utility/master/project/ordinator_implementation/resource%20images/example.jpg "Speech perk tree with Ordinator Mod")
 
 #### How can I contribute?
 -  Comment in the issue that you would like to do it.
