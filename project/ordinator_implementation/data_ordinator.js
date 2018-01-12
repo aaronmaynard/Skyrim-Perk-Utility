@@ -760,19 +760,235 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
       cname: 'twohanded',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Two-Handed Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Trained Fighter',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Death or Glory',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [1],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Wolfkin',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [2],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Bleed Like a Dog',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Rive',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [4],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Execute',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Decimate',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [6],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Bisect',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [7],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Ram`s Head',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Crushing Blows',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Batter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [10],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Avalance',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N13 - The Pendulum',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [12],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Grand Slam',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [13],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Deadfall',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [14],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Clash of Heros',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Maul',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [16],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Breach the Wall',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [17],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Subjugate',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [18],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Humiliate',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [19],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Overthrow',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [20],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Slayer of a Thousand Sons',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9, 15, 21],
+          id: ['00000000']
+        }, {
+          name: 'N23 - Ferocious Strength',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Trample',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [23],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Bear Hide',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [24],
+          id: ['00000000']
+        }, {
+          name: 'N26 - Massacre',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [24],
+          id: ['00000000']
+        }, {
+          name: 'N27 - Enter the Arena',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [26],
+          id: ['00000000']
+        }, {
+          name: 'N28 - Voice of Rage and Ruin',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [27],
           id: ['00000000']
         }
       ]
