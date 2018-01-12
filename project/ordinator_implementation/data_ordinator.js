@@ -324,19 +324,275 @@ Multiply final result by 5
       cname: 'restoration',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 Restoration Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 Tome of Many Pages',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 Restoration Dual Casting',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 Edgewalker',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 Respite',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N5 Necromanticon',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N6 Chalice of Tears',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N7 Plague Doctor',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N8 False Light',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N9 Lightwielder',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8],
+          id: ['00000000']
+        }, {
+          name: 'N10 In Thy Name',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        , {
+          name: 'N11 Spirit Tutors',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 Sacred Guardian',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N13 Pilgrim',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N14 Gods and Mortals',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [13],
+          id: ['00000000']
+        }, {
+          name: 'N15 Descending Light',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 Overflowing Cip',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N17 Under my Wings',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [16],
+          id: ['00000000']
+        }, {
+          name: 'N18 Wheel of Life',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11, 16],
+          id: ['00000000']
+        }, {
+          name: 'N19 Enduring Ideal',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [18],
+          id: ['00000000']
+        }, {
+          name: 'N20 Hallowed Burial',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N21 Exorcist',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [20],
+          id: ['00000000']
+        }, {
+          name: 'N22 Crusader`s Fire',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [21],
+          id: ['00000000']
+        }, {
+          name: 'N23 Vigilant',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N24 Antimagic Field',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [23],
+          id: ['00000000']
+        }, {
+          name: 'N25 Warrior`s Flame',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N26 Forbidden Sanctuary',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [23, 25],
+          id: ['00000000']
+        }, {
+          name: 'N27 Bastion Ward',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [26],
+          id: ['00000000']
+        }, {
+          name: 'N28 Mage Ward',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [27],
+          id: ['00000000']
+        }, {
+          name: 'N29 Sacred Flame',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [25],
+          id: ['00000000']
+        }, {
+          name: 'N30 Ashes to Ashes',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [25],
+          id: ['00000000']
+        }, {
+          name: 'N31 Battle Cleric',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [29, 30],
+          id: ['00000000']
+        }, {
+          name: 'N32 Eternal Flame',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [31],
+          id: ['00000000']
+        }, {
+          name: 'N33 Apotheosis',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [31],
           id: ['00000000']
         }
       ]
@@ -539,19 +795,147 @@ Multiply final result by 5
       cname: 'smithing',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 Smithing Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 Arcane Blacksmith',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 Dwarven Autocannon',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 Remote Control',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [2],
+          id: ['00000000']
+        }, {
+          name: 'N4 Electrobolt',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [2],
+          id: ['00000000']
+        }, {
+          name: 'N5 Firing Line',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [4],
+          id: ['00000000']
+        }, {
+          name: 'N6 Spin Up',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [4],
+          id: ['00000000']
+        }, {
+          name: 'N7 Meric Smithing',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N8 Expert Smithing',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [7],
+          id: ['00000000']
+        }, {
+          name: 'N9 Exotic Smithing',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8],
+          id: ['00000000']
+        }, {
+          name: 'N10 Planar Smithing',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N11 Advanced Workshop',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 Smithing Specialization',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N13 Iron Lore',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [12],
+          id: ['00000000']
+        }, {
+          name: 'N14 Recycle Materials',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N15 Sandstone Sheath',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [14],
+          id: ['00000000']
+        }, {
+          name: 'N16 Fuel the Inferno',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [12, 14],
+          id: ['00000000']
+        }, {
+          name: 'N17 Heart of Creation',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [10, 16],
           id: ['00000000']
         }
       ]
@@ -1296,19 +1680,147 @@ Multiply final result by 5
       cname: 'pickpocket',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 Pickpocket Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 Trained Rabbit',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 Blood Money',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 Death`s Emperor',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 Doomed to Plunder',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N5 Mutiny',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [4],
+          id: ['00000000']
+        }, {
+          name: 'N6 Theif`s Eye',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 Thief`s Luck',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [6],
+          id: ['00000000']
+        }, {
+          name: 'N8 Crime Wave',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [7],
+          id: ['00000000']
+        }, {
+          name: 'N9 Cutpurse',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 Brotherhood Cocktail',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N11 Trickster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [10],
+          id: ['00000000']
+        }, {
+          name: 'N12 On the Run',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N13 Lawless World',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N14 Stalk the Prey',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [12,13],
+          id: ['00000000']
+        }, {
+          name: 'N15 You Saw Nothing',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [14],
+          id: ['00000000']
+        }, {
+          name: 'N16 Robbed Blind',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N17 Dragon Hoard',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5,8 , 14],
           id: ['00000000']
         }
       ]
