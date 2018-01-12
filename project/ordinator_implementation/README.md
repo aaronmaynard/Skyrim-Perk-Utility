@@ -46,6 +46,6 @@ If all items have been checked, the perk will be written off.
 |   Restoration   |              |         |             |          |
 |   Smithing      |              |         |             |          |
 |   Sneak         |      ✔️      |         |             |          |
-|   Speech        |      ✔️      |         |             |          |
+|   Speech        |      ✔️      |    ✔️   |     ✔️     |          |
 |   Two-Handed    |      ✔️      |         |             |          |
 
