@@ -1060,19 +1060,211 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
       cname: 'sneak',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Sneak Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Demolition Job',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Spot Detection',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Light Foot',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [2],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Sneak Attack',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Assasin`s Blade',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [4],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Backstab',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Problem Solver',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [4],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Cloak and Dagger',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [7],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Laughing Ghost',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [7],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Tripwire',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Whiplash',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [10],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Silent Roll',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Dynamic Entry',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [12],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Dodge Roll',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [13],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Backup Plan',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11, 14],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Greased Lightning',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [14],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Fog of War',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Infiltrator',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Right Behind You',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [17, 18],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Disengage',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [19],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Clean Escape',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [19],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Smokescreen',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [19],
+          id: ['00000000']
+        }, {
+          name: 'N23 - Party Starter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [22],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Behind Enemy Lines',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [14, 19],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Shadow Warrior',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [24],
           id: ['00000000']
         }
       ]
