@@ -1123,19 +1123,219 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
       cname: 'speechcraft',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Speech Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Bribery',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Kinship',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Business Relation',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [2],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Salesman',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [2],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Investor',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3, 4],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Fence',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Trade Prince',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [6],
+          id: ['00000000']
+        }, {
+          name: 'N8 - And the Universe Listens',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Windborne',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Hurricane Force',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Force Redoubled',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Thu`um of War',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Merciless Storm',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Dovahzulaan',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [13],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Speak With Animals',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Horn of Sovngarde',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Gift of Kynareth',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Performer',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Serenade',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [18],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Irresitible Dance',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [18],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Lorde of the Dance',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [20],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Encore',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [20],
+          id: ['00000000']
+        }, {
+          name: 'N23 - Golden Fiddle',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [20],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Earthquake Drum',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [22, 23],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Witching Rhythm',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [24],
+          id: ['00000000']
+        }, {
+          name: 'N26 - War Drummer',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [25],
           id: ['00000000']
         }
       ]
