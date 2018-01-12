@@ -22,45 +22,30 @@ You can view our progress [HERE](https://github.com/aaronmaynard/Skyrim-Perk-Uti
 
 #### Where can I learn more about this mod?
 You can visit the mod page on [Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/1137?). Let them know what we're working on!
+:medal:
 
 ## Progress Summary
-- ~~Completed~~
-##### Adding Perks Progress
-- Alchemy
-- Alteration
-- Archery
-- Block
-- Conjuring
-- Destruction
-- ~~Enchanting~~
-- ~~Heavy Armor~~
-- ~~Illusion~~
-- Light Armor
-- Lockpicking
-- One-Handed
-- Pickpocket
-- Restoration
-- Smithing
-- ~~Sneak~~
-- ~~Speech~~
-- ~~Two-Handed~~
+If all items have been checked, the perk will be written off.  
 
-##### Mapping Nodes Progress
-- Alchemy
-- Alteration
-- Archery
-- Block
-- Conjuring
-- Destruction
-- Enchanting
-- Heavy Armor
-- Illusion
-- Light Armor
-- Lockpicking
-- One-Handed
-- Pickpocket
-- Restoration
-- Smithing
-- Sneak
-- Speech
-- Two-Handed
+| Perk            | Added to .js | Detailed | Nodes Mapped | ID Ready |
+| :---            |    :---:     |   :---:  |     :---:    |   :---:  |
+| ~~Some_Perk~~   |              |         |             |          |
+|   Alchemy       |              |         |             |          |
+|   Alteration    |              |         |             |          |
+|   Archery       |              |         |             |          |
+|   Block         |              |         |             |          |
+|   Conjuring     |              |         |             |          |
+|   Destruction   |              |         |             |          |
+|   Enchanting    |      ✔️      |         |             |          |
+|   Heavy Armor   |      ✔️      |         |             |          |
+|   Illusion      |      ✔️      |         |             |          |
+|   Light Armor   |              |         |             |          |
+|   Lockpicking   |              |         |             |          |
+|   One-Handed    |              |         |             |          |
+|   Pickpocket    |              |         |             |          |
+|   Restoration   |              |         |             |          |
+|   Smithing      |              |         |             |          |
+|   Sneak         |      ✔️      |         |             |          |
+|   Speech        |      ✔️      |         |             |          |
+|   Two-Handed    |      ✔️      |         |             |          |
+
