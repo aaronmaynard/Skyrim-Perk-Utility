@@ -36,15 +36,15 @@ If all items have been checked, the perk will be written off.
 |   Block         |              |          |              |          |
 |   Conjuring     |              |          |              |          |
 |   Destruction   |              |          |              |          |
-|   Enchanting    |      ✔️      |          |              |          |
-|   Heavy Armor   |      ✔️      |          |              |          |
-|   Illusion      |      ✔️      |          |              |          |
-|   Light Armor   |              |          |              |          |
-|   Lockpicking   |              |          |              |          |
-|   One-Handed    |              |          |              |          |
-|   Pickpocket    |              |          |              |          |
-|   Restoration   |              |          |              |          |
-|   Smithing      |              |          |              |          |
+|   Enchanting    |      ✔️      |    ✔️    |              |          |
+|   Heavy Armor   |      ✔️      |    ✔️    |              |          |
+|   Illusion      |      ✔️      |    ✔️    |              |          |
+|   Light Armor   |      ✔️      |          |              |          |
+|   Lockpicking   |      ✔️      |          |              |          |
+|   One-Handed    |      ✔️      |          |              |          |
+|   Pickpocket    |      ✔️      |          |              |          |
+|   Restoration   |      ✔️      |          |              |          |
+|   Smithing      |      ✔️      |          |              |          |
 |   Sneak         |      ✔️      |          |              |          |
 |   Speech        |      ✔️      |    ✔️    |     ✔️      |          |
 |   Two-Handed    |      ✔️      |          |              |          |
