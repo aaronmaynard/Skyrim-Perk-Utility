@@ -42,9 +42,9 @@ If all items have been checked, the perk will be written off.
 |   Light Armor   |              |          |              |          |
 |   Lockpicking   |              |          |              |          |
 |   One-Handed    |              |          |              |          |
-|   Pickpocket    |              |          |              |          |
-|   Restoration   |              |          |              |          |
-|   Smithing      |              |          |              |          |
+|   Pickpocket    |      ✔️      |          |              |          |
+|   Restoration   |      ✔️      |          |              |          |
+|   Smithing      |      ✔️      |          |              |          |
 |   Sneak         |      ✔️      |          |              |          |
 |   Speech        |      ✔️      |    ✔️    |     ✔️      |          |
 |   Two-Handed    |      ✔️      |          |              |          |
