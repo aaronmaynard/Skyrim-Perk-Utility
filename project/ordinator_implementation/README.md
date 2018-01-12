@@ -29,23 +29,23 @@ If all items have been checked, the perk will be written off.
 
 | Perk            | Added to .js | Detailed | Nodes Mapped | ID Ready |
 | :---            |    :---:     |   :---:  |     :---:    |   :---:  |
-| ~~Some_Perk~~   |              |         |             |          |
-|   Alchemy       |              |         |             |          |
-|   Alteration    |              |         |             |          |
-|   Archery       |              |         |             |          |
-|   Block         |              |         |             |          |
-|   Conjuring     |              |         |             |          |
-|   Destruction   |              |         |             |          |
-|   Enchanting    |      ✔️      |         |             |          |
-|   Heavy Armor   |      ✔️      |         |             |          |
-|   Illusion      |      ✔️      |         |             |          |
-|   Light Armor   |              |         |             |          |
-|   Lockpicking   |              |         |             |          |
-|   One-Handed    |              |         |             |          |
-|   Pickpocket    |              |         |             |          |
-|   Restoration   |              |         |             |          |
-|   Smithing      |              |         |             |          |
-|   Sneak         |      ✔️      |         |             |          |
-|   Speech        |      ✔️      |    ✔️   |     ✔️     |          |
-|   Two-Handed    |      ✔️      |         |             |          |
+| ~~Some_Perk~~   |      ✔️      |    ✔️    |     ✔️      |    ✔️    |
+|   Alchemy       |              |          |              |          |
+|   Alteration    |              |          |              |          |
+|   Archery       |              |          |              |          |
+|   Block         |              |          |              |          |
+|   Conjuring     |              |          |              |          |
+|   Destruction   |              |          |              |          |
+|   Enchanting    |      ✔️      |          |              |          |
+|   Heavy Armor   |      ✔️      |          |              |          |
+|   Illusion      |      ✔️      |          |              |          |
+|   Light Armor   |              |          |              |          |
+|   Lockpicking   |              |          |              |          |
+|   One-Handed    |              |          |              |          |
+|   Pickpocket    |              |          |              |          |
+|   Restoration   |              |          |              |          |
+|   Smithing      |              |          |              |          |
+|   Sneak         |      ✔️      |          |              |          |
+|   Speech        |      ✔️      |    ✔️    |     ✔️      |          |
+|   Two-Handed    |      ✔️      |          |              |          |
 
