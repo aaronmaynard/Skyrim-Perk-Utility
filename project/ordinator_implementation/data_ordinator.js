@@ -364,19 +364,171 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
       cname: 'enchanting',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Enchanting Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Soul Siphon',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Thunderstruck',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [1],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Spellscribe',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [1],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Might and Magic',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Power Echoes',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Gem Dust',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Preserver',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [6],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Regalia',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [6],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Twin Enchantment',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Arcane Nexus',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Miracle',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [10],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Last Word',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Staff Channeler',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Secret Keeper',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [12, 13],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Staff Recharge',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [13, 14],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Charge Tap',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Attunement',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8, 15],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Heart of the Sun',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [16, 17],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Flame of Magnus',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [14],
+          id: ['00000000']
+        }, {
+          name: 'N20 - You Shall Not Pass',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [16, 19],
           id: ['00000000']
         }
       ]
