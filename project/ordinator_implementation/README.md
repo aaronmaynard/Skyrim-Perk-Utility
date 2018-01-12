@@ -39,9 +39,9 @@ If all items have been checked, the perk will be written off.
 |   Enchanting    |      ✔️      |          |              |          |
 |   Heavy Armor   |      ✔️      |          |              |          |
 |   Illusion      |      ✔️      |          |              |          |
-|   Light Armor   |              |          |              |          |
-|   Lockpicking   |              |          |              |          |
-|   One-Handed    |              |          |              |          |
+|   Light Armor   |      ✔️      |          |              |          |
+|   Lockpicking   |      ✔️      |          |              |          |
+|   One-Handed    |      ✔️      |          |              |          |
 |   Pickpocket    |      ✔️      |          |              |          |
 |   Restoration   |      ✔️      |          |              |          |
 |   Smithing      |      ✔️      |          |              |          |
