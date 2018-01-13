@@ -410,7 +410,7 @@ Multiply final result by 5
           pos: [10, -10],
           deps: [9],
           id: ['00000000']
-        , {
+        }, {
           name: 'N11 Spirit Tutors',
           levels: 1,
           desc: ['Description'],
@@ -679,7 +679,7 @@ Multiply final result by 5
         }, {
           name: 'N7 - Preserver',
           levels: 1,
-          desc: ['Learning an item's enchantment does not destroy it.'],
+          desc: ['Learning an item`s enchantment does not destroy it.'],
           req: [50],
           pos: [10, -10],
           deps: [6],
@@ -1157,7 +1157,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-40, -50],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1165,7 +1165,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-35, -120],
           deps: [1],
           id: ['00000000']
         }, {
@@ -1173,7 +1173,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-25, -150],
           deps: [2],
           id: ['00000000']
         }, {
@@ -1181,7 +1181,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-20, -55],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1189,7 +1189,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-20, -90],
           deps: [4],
           id: ['00000000']
         }, {
@@ -1197,7 +1197,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -115],
           deps: [5],
           id: ['00000000']
         }, {
@@ -1205,7 +1205,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [0, -90],
           deps: [6],
           id: ['00000000']
         }, {
@@ -1213,7 +1213,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -160],
           deps: [7],
           id: ['00000000']
         }, {
@@ -1221,7 +1221,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -175],
           deps: [8],
           id: ['00000000']
         }, {
@@ -1229,7 +1229,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [5, -60],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1237,7 +1237,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -90],
           deps: [10],
           id: ['00000000']
         }, {
@@ -1245,7 +1245,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [25, -280],
           deps: [11],
           id: ['00000000']
         }, {
@@ -1253,7 +1253,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -140],
           deps: [12],
           id: ['00000000']
         }, {
@@ -1261,7 +1261,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [25, -150],
           deps: [13],
           id: ['00000000']
         }, {
@@ -1269,7 +1269,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -165],
           deps: [14],
           id: ['00000000']
         }, {
@@ -1277,7 +1277,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -55],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1285,7 +1285,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -90],
           deps: [16],
           id: ['00000000']
         }, {
@@ -1293,7 +1293,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -120],
           deps: [17],
           id: ['00000000']
         }, {
@@ -1301,7 +1301,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [35, -140],
           deps: [18],
           id: ['00000000']
         }, {
@@ -1309,7 +1309,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [25, -160],
           deps: [19],
           id: ['00000000']
         }, {
@@ -1317,7 +1317,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [25, -175],
           deps: [20],
           id: ['00000000']
         }, {
@@ -1325,7 +1325,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -205],
           deps: [9, 15, 21],
           id: ['00000000']
         }, {
@@ -1333,7 +1333,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [55, -65],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1341,7 +1341,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [70, -80],
           deps: [23],
           id: ['00000000']
         }, {
@@ -1349,7 +1349,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [65, -155],
           deps: [24],
           id: ['00000000']
         }, {
@@ -1357,7 +1357,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [50, -140],
           deps: [24],
           id: ['00000000']
         }, {
@@ -1365,7 +1365,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [50, -165],
           deps: [26],
           id: ['00000000']
         }, {
@@ -1373,7 +1373,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [35, -170],
           deps: [27],
           id: ['00000000']
         }
@@ -1889,7 +1889,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [45, -15],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1897,7 +1897,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-45, -10],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1905,7 +1905,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-75, -70],
           deps: [2],
           id: ['00000000']
         }, {
@@ -1913,7 +1913,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [45, -50],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1921,7 +1921,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [70, -85],
           deps: [4],
           id: ['00000000']
         }, {
@@ -1929,7 +1929,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [60, -110],
           deps: [5],
           id: ['00000000']
         }, {
@@ -1937,7 +1937,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [40, -135],
           deps: [4],
           id: ['00000000']
         }, {
@@ -1945,7 +1945,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [55, -155],
           deps: [7],
           id: ['00000000']
         }, {
@@ -1953,7 +1953,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [45, -175],
           deps: [7],
           id: ['00000000']
         }, {
@@ -1961,7 +1961,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-50, -45],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1969,7 +1969,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-40, -85],
           deps: [10],
           id: ['00000000']
         }, {
@@ -1977,7 +1977,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-25, -60],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1985,7 +1985,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-15, -95],
           deps: [12],
           id: ['00000000']
         }, {
@@ -1993,7 +1993,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-25, -125],
           deps: [13],
           id: ['00000000']
         }, {
@@ -2001,7 +2001,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-50, -140],
           deps: [11, 14],
           id: ['00000000']
         }, {
@@ -2009,7 +2009,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-35, -160],
           deps: [14],
           id: ['00000000']
         }, {
@@ -2017,7 +2017,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [0, -50],
           deps: [0],
           id: ['00000000']
         }, {
@@ -2025,7 +2025,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -70],
           deps: [0],
           id: ['00000000']
         }, {
@@ -2033,7 +2033,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -100],
           deps: [17, 18],
           id: ['00000000']
         }, {
@@ -2041,7 +2041,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -115],
           deps: [19],
           id: ['00000000']
         }, {
@@ -2049,7 +2049,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -120],
           deps: [19],
           id: ['00000000']
         }, {
@@ -2057,7 +2057,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -130],
           deps: [19],
           id: ['00000000']
         }, {
@@ -2065,7 +2065,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -155],
           deps: [22],
           id: ['00000000']
         }, {
@@ -2073,15 +2073,15 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
-          deps: [14, 19],
+          pos: [-1, -30],
+          deps: [70, 95],
           id: ['00000000']
         }, {
           name: 'N25 - Shadow Warrior',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [0, -175],
           deps: [24],
           id: ['00000000']
         }
