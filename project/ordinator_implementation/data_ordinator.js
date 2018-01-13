@@ -4,8 +4,6 @@ This document contains all of the perk information.  To create a new note, copy 
 is labeled accordingly.  Do not change this as this is how the scripts display the information to
 the canvas on the website.  If you have any questions, leave a comment on the issue documentation
 on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
-
-Multiply final result by 5
 **/
 
 (function() {
@@ -324,275 +322,19 @@ Multiply final result by 5
       cname: 'restoration',
       perks: [
         {
-          name: 'N0 Restoration Mastery',
+          name: 'Node 0',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'N1 Tome of Many Pages',
+          name: 'Node X',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N2 Restoration Dual Casting',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N3 Edgewalker',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N4 Respite',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N5 Necromanticon',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N6 Chalice of Tears',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5],
-          id: ['00000000']
-        }, {
-          name: 'N7 Plague Doctor',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5],
-          id: ['00000000']
-        }, {
-          name: 'N8 False Light',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N9 Lightwielder',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N10 In Thy Name',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        , {
-          name: 'N11 Spirit Tutors',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N12 Sacred Guardian',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [11],
-          id: ['00000000']
-        }, {
-          name: 'N13 Pilgrim',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [11],
-          id: ['00000000']
-        }, {
-          name: 'N14 Gods and Mortals',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [13],
-          id: ['00000000']
-        }, {
-          name: 'N15 Descending Light',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N16 Overflowing Cip',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N17 Under my Wings',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [16],
-          id: ['00000000']
-        }, {
-          name: 'N18 Wheel of Life',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [11, 16],
-          id: ['00000000']
-        }, {
-          name: 'N19 Enduring Ideal',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [18],
-          id: ['00000000']
-        }, {
-          name: 'N20 Hallowed Burial',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N21 Exorcist',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [20],
-          id: ['00000000']
-        }, {
-          name: 'N22 Crusader`s Fire',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [21],
-          id: ['00000000']
-        }, {
-          name: 'N23 Vigilant',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N24 Antimagic Field',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [23],
-          id: ['00000000']
-        }, {
-          name: 'N25 Warrior`s Flame',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N26 Forbidden Sanctuary',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [23, 25],
-          id: ['00000000']
-        }, {
-          name: 'N27 Bastion Ward',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [26],
-          id: ['00000000']
-        }, {
-          name: 'N28 Mage Ward',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [27],
-          id: ['00000000']
-        }, {
-          name: 'N29 Sacred Flame',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [25],
-          id: ['00000000']
-        }, {
-          name: 'N30 Ashes to Ashes',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [25],
-          id: ['00000000']
-        }, {
-          name: 'N31 Battle Cleric',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [29, 30],
-          id: ['00000000']
-        }, {
-          name: 'N32 Eternal Flame',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [31],
-          id: ['00000000']
-        }, {
-          name: 'N33 Apotheosis',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [31],
           id: ['00000000']
         }
       ]
@@ -679,7 +421,7 @@ Multiply final result by 5
         }, {
           name: 'N7 - Preserver',
           levels: 1,
-          desc: ['Learning an item's enchantment does not destroy it.'],
+          desc: ['Learning an item`s enchantment does not destroy it.'],
           req: [50],
           pos: [10, -10],
           deps: [6],
@@ -795,147 +537,19 @@ Multiply final result by 5
       cname: 'smithing',
       perks: [
         {
-          name: 'N0 Smithing Mastery',
+          name: 'Node 0',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'N1 Arcane Blacksmith',
+          name: 'Node X',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N2 Dwarven Autocannon',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N3 Remote Control',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [2],
-          id: ['00000000']
-        }, {
-          name: 'N4 Electrobolt',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [2],
-          id: ['00000000']
-        }, {
-          name: 'N5 Firing Line',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [4],
-          id: ['00000000']
-        }, {
-          name: 'N6 Spin Up',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [4],
-          id: ['00000000']
-        }, {
-          name: 'N7 Meric Smithing',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N8 Expert Smithing',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [7],
-          id: ['00000000']
-        }, {
-          name: 'N9 Exotic Smithing',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N10 Planar Smithing',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        }, {
-          name: 'N11 Advanced Workshop',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N12 Smithing Specialization',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [11],
-          id: ['00000000']
-        }, {
-          name: 'N13 Iron Lore',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [12],
-          id: ['00000000']
-        }, {
-          name: 'N14 Recycle Materials',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [11],
-          id: ['00000000']
-        }, {
-          name: 'N15 Sandstone Sheath',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N16 Fuel the Inferno',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [12, 14],
-          id: ['00000000']
-        }, {
-          name: 'N17 Heart of Creation',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [10, 16],
           id: ['00000000']
         }
       ]
@@ -1157,7 +771,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-40, -50],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1165,7 +779,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-35, -120],
           deps: [1],
           id: ['00000000']
         }, {
@@ -1173,7 +787,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-25, -150],
           deps: [2],
           id: ['00000000']
         }, {
@@ -1181,7 +795,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-20, -55],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1189,7 +803,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-20, -90],
           deps: [4],
           id: ['00000000']
         }, {
@@ -1197,7 +811,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -115],
           deps: [5],
           id: ['00000000']
         }, {
@@ -1205,7 +819,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-0, -130],
           deps: [6],
           id: ['00000000']
         }, {
@@ -1213,7 +827,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -160],
           deps: [7],
           id: ['00000000']
         }, {
@@ -1221,7 +835,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -175],
           deps: [8],
           id: ['00000000']
         }, {
@@ -1229,7 +843,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [5, -60],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1237,7 +851,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -90],
           deps: [10],
           id: ['00000000']
         }, {
@@ -1245,7 +859,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -120],
           deps: [11],
           id: ['00000000']
         }, {
@@ -1253,7 +867,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [15, -140],
           deps: [12],
           id: ['00000000']
         }, {
@@ -1261,7 +875,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -155],
           deps: [13],
           id: ['00000000']
         }, {
@@ -1269,7 +883,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [15, -170],
           deps: [14],
           id: ['00000000']
         }, {
@@ -1277,7 +891,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -55],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1285,7 +899,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -90],
           deps: [16],
           id: ['00000000']
         }, {
@@ -1293,7 +907,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -120],
           deps: [17],
           id: ['00000000']
         }, {
@@ -1301,7 +915,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [35, -140],
           deps: [18],
           id: ['00000000']
         }, {
@@ -1309,7 +923,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [25, -160],
           deps: [19],
           id: ['00000000']
         }, {
@@ -1317,7 +931,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [25, -175],
           deps: [20],
           id: ['00000000']
         }, {
@@ -1325,7 +939,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [15, -195],
           deps: [9, 15, 21],
           id: ['00000000']
         }, {
@@ -1333,7 +947,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [55, -65],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1341,7 +955,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [70, -80],
           deps: [23],
           id: ['00000000']
         }, {
@@ -1349,7 +963,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [65, -155],
           deps: [24],
           id: ['00000000']
         }, {
@@ -1357,7 +971,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [50, -140],
           deps: [24],
           id: ['00000000']
         }, {
@@ -1365,7 +979,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [50, -165],
           deps: [26],
           id: ['00000000']
         }, {
@@ -1373,8 +987,8 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
-          deps: [27],
+          pos: [35, -170],
+          deps: [26],
           id: ['00000000']
         }
       ]
@@ -1383,283 +997,19 @@ Multiply final result by 5
       cname: 'onehanded',
       perks: [
         {
-          name: 'N0 One-Handed Mastery',
+          name: 'Node 0',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'N1 Furious Strength',
+          name: 'Node X',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N2 Overrun',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [1],
-          id: ['00000000']
-        }, {
-          name: 'N3 Disciplined Fighter',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N4 Rogue`s Parry',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N5 Thundering Blow',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N6 Aftershock',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5],
-          id: ['00000000']
-        }, {
-          name: 'N7 Ravage',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N8 Man o` War',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [7],
-          id: ['00000000']
-        }, {
-          name: 'N9 Unleash the Beast',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N10 Bleed Like a Lamb',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N11 Mangle',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [10],
-          id: ['00000000']
-        }, {
-          name: 'N12 Shieldbiter',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [11],
-          id: ['00000000']
-        }, {
-          name: 'N13 Wolfstooth',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [12],
-          id: ['00000000']
-        }, {
-          name: 'N14 Go for the Throat',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [13],
-          id: ['00000000']
-        }, {
-          name: 'N15 Apex Predator',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N16 Denting Blows',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N17 Smite',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [16],
-          id: ['00000000']
-        }, {
-          name: 'N18 Rise Kinsmen',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [17],
-          id: ['00000000']
-        }, {
-          name: 'N19 Toll the Bell',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [18],
-          id: ['00000000']
-        }, {
-          name: 'N20 Meteor Storm',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [19],
-          id: ['00000000']
-        }, {
-          name: 'N21 Skull Crack',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [20],
-          id: ['00000000']
-        }, {
-          name: 'N22 Clash of Champions',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N23 Cross Cut',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [22],
-          id: ['00000000']
-        }, {
-          name: 'N24 Falling Sword',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [23],
-          id: ['00000000']
-        }, {
-          name: 'N25 Windswept',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [24],
-          id: ['00000000']
-        }, {
-          name: 'N26 Into the Dust',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [25],
-          id: ['00000000']
-        }, {
-          name: 'N27 Judgment',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [26],
-          id: ['00000000']
-        }, {
-          name: 'N28 Bite Marks',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N29 Savage',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [28],
-          id: ['00000000']
-        }, {
-          name: 'N30 Twin Fang',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [29],
-          id: ['00000000']
-        }, {
-          name: 'N31 Swaying Cobra',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [30],
-          id: ['00000000']
-        }, {
-          name: 'N32 Death Adder',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [31],
-          id: ['00000000']
-        }, {
-          name: 'N33 Coiling Python',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [32],
-          id: ['00000000']
-        }, {
-          name: 'N34 Wandering Warrior',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15, 21, 27, 33],
           id: ['00000000']
         }
       ]
@@ -1689,187 +1039,19 @@ Multiply final result by 5
       cname: 'lightarmor',
       perks: [
         {
-          name: 'N0 Light Armor Mastery',
+          name: 'Node 0',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'N1 Annoying Mosquitos',
+          name: 'Node X',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N2 As a Leaf',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N3 Iron Fist',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N4 Sweeping Wind',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N5 Rushing Tide',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [4],
-          id: ['00000000']
-        }, {
-          name: 'N6 Hissing Dragon',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5],
-          id: ['00000000']
-        }, {
-          name: 'N7 Breaking Waves',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5],
-          id: ['00000000']
-        }, {
-          name: 'N8 Light Armor Fit',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N9 Unhindered',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [4, 8],
-          id: ['00000000']
-        }, {
-          name: 'N10 Into the Maelstrom',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        }, {
-          name: 'N11 Keen Senses',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N12 Evasive Leap',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N13 Wild and Free',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [12],
-          id: ['00000000']
-        }, {
-          name: 'N14 Initiative',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N15 Lightning Strike',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N16 Fight or Flight',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N17 Survival Instinct',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [16],
-          id: ['00000000']
-        }, {
-          name: 'N18 Windrunner',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N19 Wardancer',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [18],
-          id: ['00000000']
-        }, {
-          name: 'N20 Spelldancer',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [19],
-          id: ['00000000']
-        }, {
-          name: 'N21 Glancing Blows',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [19],
-          id: ['00000000']
-        }, {
-          name: 'N22 Tempting Fate',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [17, 21],
           id: ['00000000']
         }
       ]
@@ -1889,7 +1071,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [45, -15],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1897,7 +1079,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-45, -10],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1905,7 +1087,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-75, -70],
           deps: [2],
           id: ['00000000']
         }, {
@@ -1913,7 +1095,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [45, -50],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1921,7 +1103,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [70, -85],
           deps: [4],
           id: ['00000000']
         }, {
@@ -1929,7 +1111,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [60, -110],
           deps: [5],
           id: ['00000000']
         }, {
@@ -1937,7 +1119,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [40, -135],
           deps: [4],
           id: ['00000000']
         }, {
@@ -1945,7 +1127,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [55, -155],
           deps: [7],
           id: ['00000000']
         }, {
@@ -1953,7 +1135,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [45, -175],
           deps: [7],
           id: ['00000000']
         }, {
@@ -1961,7 +1143,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-50, -45],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1969,7 +1151,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-40, -85],
           deps: [10],
           id: ['00000000']
         }, {
@@ -1977,7 +1159,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-25, -60],
           deps: [0],
           id: ['00000000']
         }, {
@@ -1985,7 +1167,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-15, -95],
           deps: [12],
           id: ['00000000']
         }, {
@@ -1993,7 +1175,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-25, -125],
           deps: [13],
           id: ['00000000']
         }, {
@@ -2001,7 +1183,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-50, -140],
           deps: [11, 14],
           id: ['00000000']
         }, {
@@ -2009,15 +1191,15 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-35, -160],
           deps: [14],
           id: ['00000000']
-        }, {
+        },{
           name: 'N17 - Fog of War',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [0, -50],
           deps: [0],
           id: ['00000000']
         }, {
@@ -2025,7 +1207,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -70],
           deps: [0],
           id: ['00000000']
         }, {
@@ -2033,7 +1215,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [10, -100],
           deps: [17, 18],
           id: ['00000000']
         }, {
@@ -2041,7 +1223,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -115],
           deps: [19],
           id: ['00000000']
         }, {
@@ -2049,7 +1231,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [30, -120],
           deps: [19],
           id: ['00000000']
         }, {
@@ -2057,7 +1239,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -130],
           deps: [19],
           id: ['00000000']
         }, {
@@ -2065,7 +1247,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [20, -155],
           deps: [22],
           id: ['00000000']
         }, {
@@ -2073,7 +1255,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-5, -150],
           deps: [14, 19],
           id: ['00000000']
         }, {
@@ -2081,7 +1263,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [0, -175],
           deps: [24],
           id: ['00000000']
         }
@@ -2091,171 +1273,19 @@ Multiply final result by 5
       cname: 'lockpicking',
       perks: [
         {
-          name: 'N0 Lockpicking Mastery',
+          name: 'Node 0',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'N1 Game of Fate',
+          name: 'Node X',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N2 Lockdown',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N3 Hotwire',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [2],
-          id: ['00000000']
-        }, {
-          name: 'N4 Percussive Maintenance',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N5 Wax Key',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N6 Locksmith',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5],
-          id: ['00000000']
-        }, {
-          name: 'N7 Seen This Before',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [6],
-          id: ['00000000']
-        }, {
-          name: 'N8 Robber`s Eye',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N9 Gone in Fifteen Seconds',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N10 Golden Touch',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        }, {
-          name: 'N11 Nose for Treasure',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [8],
-          id: ['00000000']
-        }, {
-          name: 'N12 Dungeoneer',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9, 11],
-          id: ['00000000']
-        }, {
-          name: 'N13 Treasure Hunter',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [10, 12],
-          id: ['00000000']
-        }, {
-          name: 'N14 Bear Traps',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N15 Lockjaw',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N16 Bait',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N17 The Revenge',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [16],
-          id: ['00000000']
-        }, {
-          name: 'N18 Big Game Hunter',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N19 Bushwhack',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [16, 18],
-          id: ['00000000']
-        }, {
-          name: 'N20 Dragon`s Teeth',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [17, 19],
           id: ['00000000']
         }
       ]
@@ -2264,147 +1294,19 @@ Multiply final result by 5
       cname: 'pickpocket',
       perks: [
         {
-          name: 'N0 Pickpocket Mastery',
+          name: 'Node 0',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'N1 Trained Rabbit',
+          name: 'Node X',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N2 Blood Money',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N3 Death`s Emperor',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N4 Doomed to Plunder',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [3],
-          id: ['00000000']
-        }, {
-          name: 'N5 Mutiny',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [4],
-          id: ['00000000']
-        }, {
-          name: 'N6 Theif`s Eye',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N7 Thief`s Luck',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [6],
-          id: ['00000000']
-        }, {
-          name: 'N8 Crime Wave',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [7],
-          id: ['00000000']
-        }, {
-          name: 'N9 Cutpurse',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N10 Brotherhood Cocktail',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        }, {
-          name: 'N11 Trickster',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [10],
-          id: ['00000000']
-        }, {
-          name: 'N12 On the Run',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        }, {
-          name: 'N13 Lawless World',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [9],
-          id: ['00000000']
-        }, {
-          name: 'N14 Stalk the Prey',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [12,13],
-          id: ['00000000']
-        }, {
-          name: 'N15 You Saw Nothing',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [14],
-          id: ['00000000']
-        }, {
-          name: 'N16 Robbed Blind',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [15],
-          id: ['00000000']
-        }, {
-          name: 'N17 Dragon Hoard',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [10, -10],
-          deps: [5,8 , 14],
           id: ['00000000']
         }
       ]
