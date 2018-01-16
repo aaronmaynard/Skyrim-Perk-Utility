@@ -45,7 +45,7 @@ If all items have been checked, the perk will be written off.
 |   Pickpocket    |      ✔️      |          |              |          |
 |   Restoration   |      ✔️      |          |              |          |
 |   Smithing      |      ✔️      |          |              |          |
-|   Sneak         |      ✔️      |          |              |          |
-|   Speech        |      ✔️      |    ✔️    |     ✔️      |          |
+|   Sneak         |      ✔️      |          |     ✔️       |          |
+|   Speech        |      ✔️      |    ✔️    |     ✔️       |          |
 |   Two-Handed    |      ✔️      |          |     ✔️       |          |
 
