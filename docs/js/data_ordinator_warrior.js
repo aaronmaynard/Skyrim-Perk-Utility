@@ -517,7 +517,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [0, -90],
+          pos: [-0, -130],
           deps: [6],
           id: ['00000000']
         }, {
@@ -557,7 +557,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [25, -280],
+          pos: [10, -120],
           deps: [11],
           id: ['00000000']
         }, {
@@ -565,7 +565,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [30, -140],
+          pos: [15, -140],
           deps: [12],
           id: ['00000000']
         }, {
@@ -573,7 +573,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [25, -150],
+          pos: [10, -155],
           deps: [13],
           id: ['00000000']
         }, {
@@ -581,7 +581,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [30, -165],
+          pos: [15, -170],
           deps: [14],
           id: ['00000000']
         }, {
@@ -637,7 +637,7 @@ Multiply final result by 5
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -205],
+          pos: [15, -195],
           deps: [9, 15, 21],
           id: ['00000000']
         }, {
@@ -686,10 +686,10 @@ Multiply final result by 5
           desc: ['Description'],
           req: [5],
           pos: [35, -170],
-          deps: [27],
+          deps: [26],
           id: ['00000000']
         }
-      ]
+]
     }, {
       name: 'One-Handed',
       cname: 'onehanded',
