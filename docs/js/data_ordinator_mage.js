@@ -4,14 +4,16 @@ This document contains all of the perk information.  To create a new note, copy 
 is labeled accordingly.  Do not change this as this is how the scripts display the information to
 the canvas on the website.  If you have any questions, leave a comment on the issue documentation
 on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
+
+Multiply final result by 5
 **/
 
 (function() {
 
   window.perkTrees = [
     {
-      name: 'Alchemy',	
-      cname: 'alchemy',	
+      name: 'Alchemy Ordinator',	// The name that shows on the top of the perk tree, as well as in the branch list.
+      cname: 'alchemy',	// Do not change the name and cname.
       perks: [
         {
           name: 'Root',
@@ -314,19 +316,275 @@ on GitHub.  https://github.com/aaronmaynard/Skyrim-Perk-Utility
       cname: 'restoration',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 Restoration Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 Tome of Many Pages',
           levels: 1,
           desc: ['Description'],
           req: [5],
           pos: [10, -10],
           deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 Restoration Dual Casting',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 Edgewalker',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 Respite',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N5 Necromanticon',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N6 Chalice of Tears',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N7 Plague Doctor',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [5],
+          id: ['00000000']
+        }, {
+          name: 'N8 False Light',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [3],
+          id: ['00000000']
+        }, {
+          name: 'N9 Lightwielder',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [8],
+          id: ['00000000']
+        }, {
+          name: 'N10 In Thy Name',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [9],
+          id: ['00000000']
+        }, {
+          name: 'N11 Spirit Tutors',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 Sacred Guardian',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N13 Pilgrim',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11],
+          id: ['00000000']
+        }, {
+          name: 'N14 Gods and Mortals',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [13],
+          id: ['00000000']
+        }, {
+          name: 'N15 Descending Light',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 Overflowing Cip',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N17 Under my Wings',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [16],
+          id: ['00000000']
+        }, {
+          name: 'N18 Wheel of Life',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [11, 16],
+          id: ['00000000']
+        }, {
+          name: 'N19 Enduring Ideal',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [18],
+          id: ['00000000']
+        }, {
+          name: 'N20 Hallowed Burial',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N21 Exorcist',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [20],
+          id: ['00000000']
+        }, {
+          name: 'N22 Crusader`s Fire',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [21],
+          id: ['00000000']
+        }, {
+          name: 'N23 Vigilant',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N24 Antimagic Field',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [23],
+          id: ['00000000']
+        }, {
+          name: 'N25 Warrior`s Flame',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [15],
+          id: ['00000000']
+        }, {
+          name: 'N26 Forbidden Sanctuary',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [23, 25],
+          id: ['00000000']
+        }, {
+          name: 'N27 Bastion Ward',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [26],
+          id: ['00000000']
+        }, {
+          name: 'N28 Mage Ward',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [27],
+          id: ['00000000']
+        }, {
+          name: 'N29 Sacred Flame',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [25],
+          id: ['00000000']
+        }, {
+          name: 'N30 Ashes to Ashes',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [25],
+          id: ['00000000']
+        }, {
+          name: 'N31 Battle Cleric',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [29, 30],
+          id: ['00000000']
+        }, {
+          name: 'N32 Eternal Flame',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [31],
+          id: ['00000000']
+        }, {
+          name: 'N33 Apotheosis',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -10],
+          deps: [31],
           id: ['00000000']
         }
       ]
