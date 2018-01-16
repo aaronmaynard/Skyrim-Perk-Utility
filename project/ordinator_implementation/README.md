@@ -47,5 +47,5 @@ If all items have been checked, the perk will be written off.
 |   Smithing      |      ✔️      |          |              |          |
 |   Sneak         |      ✔️      |          |              |          |
 |   Speech        |      ✔️      |    ✔️    |     ✔️      |          |
-|   Two-Handed    |      ✔️      |          |              |          |
+|   Two-Handed    |      ✔️      |          |     ✔️       |          |
 
