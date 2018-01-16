@@ -1,3 +1,37 @@
+<!DOCTYPE html>
 <html>
-  stuff
+    <head>
+        <title>Skyrim Perk Utility</title>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/underscore.js"></script>
+        <script type="text/javascript" src="js/backbone.js"></script>
+        <script type="text/javascript" src="js/data_ordinator_warrior.js"></script>
+        <script type="text/javascript" src="js/bitarray.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+	<div class="cDefault" id="cursorMod">
+		<header class="nav">
+			<ul>
+				<li style="float:left"><input type=button onClick="location.href='https://github.com/aaronmaynard/Skyrim-Perk-Utility'" value='View On GitHub'></li>
+				<li ><span href="">Active Perks:</span></li>
+				<li><span id="active-perks">0</span></li>
+				<li style="float:right" id="help"><button>Help</button></li>
+				<li style="float:right" class="clear-perks"><button>Clear All</button></li>
+				<li style="float:right" class="dropdown">
+					<button class="dropbtn">Save</button>
+					<div class="dropdown-content">
+						<span class="cDownload" id="download-reset">Reset Script</span>
+						<span class="cDownload" id="download-addperks">AddPerk Script</span>
+						<span class="cDownload" id="download-sharelink" onclick="prompt('Copy this link to share your build:', window.location.href)"><b style="color:orange;">NEW</b> Share Online</span>
+					</div>
+				</li>
+			</ul>
+		</header>
+		<canvas class="cCrosshair" id="canvas" width="1000" height="800"></canvas>
+		<footer>
+			<div align='center'><a href='https://aaronmaynard.github.io/Skyrim-Perk-Utility'><img src='http://www.free-website-hit-counter.com/c.php?d=7&id=110814&s=5' border='0'></a><br / ><small><a href='http://www.free-website-hit-counter.com' title="free website hit counter">Free website hit counter</a></small></div>
+		</footer>
+	</div>
 </html>
