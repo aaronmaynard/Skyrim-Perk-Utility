@@ -38,7 +38,7 @@ If all items have been checked, the perk will be written off.
 |   Destruction   |              |          |              |          |
 |   Enchanting    |      ✔️      |    ✔️    |              |          |
 |   Heavy Armor   |      ✔️      |    ✔️    |              |          |
-|   Illusion      |      ✔️      |    ✔️    |              |          |
+|   Illusion      |      ✔️      |    ✔️    |              |    ✔️    |
 |   Light Armor   |      ✔️      |    ✔️    |              |          |
 |   Lockpicking   |      ✔️      |    ✔️    |              |          |
 |   One-Handed    |      ✔️      |          |              |          |
