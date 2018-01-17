@@ -12,7 +12,7 @@ Multiply final result by 5
 
   window.perkTrees = [
     {
-      name: 'Alchemy Ordinator',	// The name that shows on the top of the perk tree, as well as in the branch list.
+      name: 'Alchemy',	// The name that shows on the top of the perk tree, as well as in the branch list.
       cname: 'alchemy',	// Do not change the name and cname.
       perks: [
         {
