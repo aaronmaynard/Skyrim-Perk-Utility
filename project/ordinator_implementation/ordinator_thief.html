@@ -15,6 +15,14 @@
 		<header class="nav">
 			<ul>
 				<li style="float:left"><input type=button onClick="location.href='https://github.com/aaronmaynard/Skyrim-Perk-Utility'" value='View On GitHub'></li>
+				<li style="float:left" class="dropdown">
+					<button class="dropbtn">Change Tree</button>
+					<div style="background-color:black;" class="dropdown-content">
+						<input type=button onClick="location.href='https://aaronmaynard.github.io/Skyrim-Perk-Utility/ordinator_mage.html'" value='Mage'>
+						<input type=button onClick="location.href='https://aaronmaynard.github.io/Skyrim-Perk-Utility/ordinator_warrior.html'" value='Warrior'>
+						<input type=button onClick="location.href='https://aaronmaynard.github.io/Skyrim-Perk-Utility/ordinator_thief.html'" value='Thief'>
+					</div>
+				</li>
 				<li ><span href="">Active Perks:</span></li>
 				<li><span id="active-perks">0</span></li>
 				<li style="float:right" id="help"><button>Help</button></li>
@@ -29,6 +37,8 @@
 				</li>
 			</ul>
 		</header>
+		<span style="color:red"><b>Notice:</b> </span><span>This page is only for the <b style="color:forestgreen">THIEF</b> perk trees. To Select a different set, view "Change Tree" to the left.</span>
+		<br>
 		<canvas class="cCrosshair" id="canvas" width="1000" height="800"></canvas>
 		<footer>
 			<div align='center'><a href='https://aaronmaynard.github.io/Skyrim-Perk-Utility'><img src='http://www.free-website-hit-counter.com/c.php?d=7&id=110814&s=5' border='0'></a><br / ><small><a href='http://www.free-website-hit-counter.com' title="free website hit counter">Free website hit counter</a></small></div>
