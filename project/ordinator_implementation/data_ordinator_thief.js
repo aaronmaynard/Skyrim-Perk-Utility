@@ -233,184 +233,184 @@
       perks: [
         {
           name: 'N0 Light Armor Mastery',
-          levels: 5,
-          desc: ['Description'],
-          req: [0, 20, 40, 60, 80],
+          levels: 2,
+          desc: ['Armor rating of Light Armor increased by 20%. You gain a small amount of Light Armor experience when wearing at least two pieces of Light Armor in combat.','Armor rating of Light Armor increased by 40%. You gain a small amount of Light Armor experience when wearing at least two pieces of Light Armor in combat.'],
+          req: [0, 20],
           pos: [0, 0],
-          id: ['00000000', '00000000', '00000000', '00000000', '00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N1 Annoying Mosquitos',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
+          levels: 2,
+          desc: ['You take 10% less attack damage from enemies with full Health if wearing all Light Armor.','You take 20% less attack damage from enemies with full Health if wearing all Light Armor.'],
+          req: [20,40],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N2 As a Leaf',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['While sprinting in Light Armor, you cannot be staggered and take 50% less damage from power attacks.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N3 Iron Fist',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Increases unarmed damage by 5% of your current Stamina, and you gain Light Armor experience when using unarmed attacks in combat. Requires two free hands.','Increases unarmed damage by 15% of your current Stamina, and you gain Light Armor experience when using unarmed attacks in combat. Requires two free hands.','Increases unarmed damage by 25% of your current Stamina, and you gain Light Armor experience when using unarmed attacks in combat. Requires two free hands.'],
+          req: [20,40,60],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['00000000', '00000000', '00000000']
         }, {
           name: 'N4 Sweeping Wind',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Unarmed power attacks do 25% more damage. Additionally, if your movement speed is increased, they do 2% damage per 1% movement speed. Requires two free hands.'],
+          req: [40],
           pos: [10, -10],
           deps: [3],
           id: ['00000000']
         }, {
           name: 'N5 Rushing Tide',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Unarmed attacks grant 10% increased Stamina regeneration and 5% movement speed for 8 seconds. This effect stacks. Requires two free hands.'],
+          req: [50],
           pos: [10, -10],
           deps: [4],
           id: ['00000000']
         }, {
           name: 'N6 Hissing Dragon',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You may choose a damage type (fire, frost, shock, poison, disease or sun). Unarmed attacks unleash a shockwave that deals the chosen damage type to all targets in front of you. Requires two free hands. Does not activate while sneaking.'],
+          req: [70],
           pos: [10, -10],
           deps: [5],
           id: ['00000000']
         }, {
           name: 'N7 Breaking Waves',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Unarmed attacks have 15% chance of a critical strike that deals critical damage equal to 40% of your current Stamina. If you are affected by Wardancer, every hit is a critical strike. Requires two free hands.'],
+          req: [90],
           pos: [10, -10],
           deps: [5],
           id: ['00000000']
         }, {
           name: 'N8 Light Armor Fit',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Armor rating of Light Armor increased by 25% if wearing all Light Armor.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N9 Unhindered',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Light Armor weighs nothing and doesn`t slow you down when worn.'],
+          req: [50],
           pos: [10, -10],
           deps: [4, 8],
           id: ['00000000']
         }, {
           name: 'N10 Into the Maelstrom',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You take 10% less attack damage when fighting more than one enemy if wearing all Light Armor.'],
+          req: [60],
           pos: [10, -10],
           deps: [9],
           id: ['00000000']
         }, {
           name: 'N11 Keen Senses',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You no longer need to wear a helmet to benefit from perks that require "wearing all Light Armor". If you are not wearing a helmet, Light Armor pieces have 20% increased armor rating.'],
+          req: [40],
           pos: [10, -10],
           deps: [8],
           id: ['00000000']
         }, {
           name: 'N12 Evasive Leap',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['If wearing all Light Armor, jump in combat to cause all incoming attacks and spells to miss for 1 second. This effect has a 5 second cooldown.'],
+          req: [60],
           pos: [10, -10],
           deps: [8],
           id: ['00000000']
         }, {
           name: 'N13 Wild and Free',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['While sprinting in Light Armor, you take 50% less damage from attacks.'],
+          req: [80],
           pos: [10, -10],
           deps: [12],
           id: ['00000000']
         }, {
           name: 'N14 Initiative',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
+          levels: 2,
+          desc: ['When you enter combat, if wearing all Light Armor, regenerate up to 10% of your maximum Stamina per second. This bonus gradually diminishes over the course of 15 seconds.','When you enter combat, if wearing all Light Armor, regenerate up to 20% of your maximum Stamina per second. This bonus gradually diminishes over the course of 15 seconds.'],
+          req: [40,60],
           pos: [10, -10],
           deps: [8],
-          id: ['00000000']
+          id: ['00000000','00000000']
         }, {
           name: 'N15 Lightning Strike',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your critical strikes deal 75% more critical damage for 10 seconds after entering combat while wearing all Light Armor.'],
+          req: [90],
           pos: [10, -10],
           deps: [14],
           id: ['00000000']
         }, {
           name: 'N16 Fight or Flight',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When struck by an unblocked attack or spell in combat, an adrenaline rush regenerates 5% of your maximum Stamina per second for 6 seconds if wearing all Light Armor.'],
+          req: [70],
           pos: [10, -10],
           deps: [14],
           id: ['00000000']
         }, {
           name: 'N17 Survival Instinct',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you get struck by an unblocked attack or hostile spell in combat, gain 10% movement speed for 6 seconds if wearing all Light Armor.'],
+          req: [80],
           pos: [10, -10],
           deps: [16],
           id: ['00000000']
         }, {
           name: 'N18 Windrunner',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Move 10% faster in combat if wearing all Light Armor.'],
+          req: [50],
           pos: [10, -10],
           deps: [14],
           id: ['00000000']
         }, {
           name: 'N19 Wardancer',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your agility enables you to strike more effectively, granting 20% more attack damage and critical damage if wearing all Light Armor. This effect is lost for 6 seconds whenever you get struck by an unblocked attack or a hostile spell in combat.'],
+          req: [70],
           pos: [10, -10],
           deps: [18],
           id: ['00000000']
         }, {
           name: 'N20 Spelldancer',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Wardancer also improves elemental (fire, frost and shock) spells and effects by the same amount.'],
+          req: [80],
           pos: [10, -10],
           deps: [19],
           id: ['00000000']
         }, {
           name: 'N21 Glancing Blows',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You take 30% less damage from blocked attacks while Wardancer is active. When you lose the Wardancer effect due to an unblocked attack, it also deals 30% less damage.'],
+          req: [90],
           pos: [10, -10],
           deps: [19],
           id: ['00000000']
         }, {
           name: 'N22 Tempting Fate',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You gain 20% movement speed if you are not blocking during an enemy`s power attack. If the power attack misses, the effect lasts until combat ends or until you get struck by a power attack.'],
+          req: [100],
           pos: [10, -10],
           deps: [17, 21],
           id: ['00000000']
@@ -635,168 +635,168 @@
       perks: [
         {
           name: 'N0 Lockpicking Mastery',
-          levels: 5,
-          desc: ['Description'],
-          req: [0, 20, 40, 60, 80],
+          levels: 2,
+          desc: ['Weaker locks are easier to pick.','All locks are easier to pick.'],
+          req: [0, 20],
           pos: [0, 0],
-          id: ['00000000', '00000000', '00000000', '00000000', '00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N1 Game of Fate',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['There are 5 Dragons of Fate hidden in random locked containers in Skyrim. Each grants 15000 gold and a free perk point when removed from its container. The name of the container changes to indicate the treasure inside.'],
+          req: [20],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N2 Lockdown',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Activate a hostile automaton to lockpick your way into its engine. Lock difficulty is based on its current Health. Pick its lock within 15 seconds to reduce its Health to 1 and shut it down for 60 seconds. If you fail, you can`t try again for 30 seconds.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N3 Hotwire',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Activate an automaton under Lockdown to lockpick its brain. Succeed within 15 seconds to hack the automaton, forcing it to follow you and fight for you. If you fail, you can`t try again for 30 seconds. You can only have one Hotwired Automaton at a time.'],
+          req: [50],
           pos: [10, -10],
           deps: [2],
           id: ['00000000']
         }, {
           name: 'N4 Percussive Maintenance',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your Hotwired Automaton moves 30% faster and attacks 20% faster. Hitting your Hotwired Automaton with a mace or warhammer repairs it 150 points (or 300 points on a power attack) and further increases attack speed by 50% for 10 seconds.'],
+          req: [90],
           pos: [10, -10],
           deps: [3],
           id: ['00000000']
         }, {
           name: 'N5 Wax Key',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Gives you a copy of a picked lock`s key if it has one.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N6 Locksmith',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Pick starts much closer to the lock opening position.'],
+          req: [40],
           pos: [10, -10],
           deps: [5],
           id: ['00000000']
         }, {
           name: 'N7 Seen This Before',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your skill at lockpicking is such that you may bypass locks of Expert or lower level without using a key or manually picking the lock. After picking or bypassing at least 100 locks, you gain 2 perk points.'],
+          req: [100],
           pos: [10, -10],
           deps: [6],
           id: ['00000000']
         }, {
           name: 'N8 Robber`s Eye',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you enter a dwelling you don`t own, illuminates a locked container for 120 seconds. During this time, it contains valuable items (based on your Lockpicking skill and the difficulty of its lock). This can only occur once every 12-60 ingame hours.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N9 Gone in Fifteen Seconds',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Taking 15 seconds or less to pick the lock on a container illuminated by Robber`s Eye improves the added treasure by an average of 50% based on the level of the lock and resets the cooldown of Robber`s Eye.'],
+          req: [40],
           pos: [10, -10],
           deps: [8],
           id: ['00000000']
         }, {
           name: 'N10 Golden Touch',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Find 20-100 more gold in many dungeon chests and 2-10 more gold in some corpses, urns, etc.'],
+          req: [60],
           pos: [10, -10],
           deps: [9],
           id: ['00000000']
         }, {
           name: 'N11 Nose for Treasure',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You may choose an item type (gold, jewelry, books, ingredients, potions, ingots, weapons, armor, scrolls). Containers illuminated by Robber`s Eye are three times more likely to contain items of your chosen type over other types.'],
+          req: [50],
           pos: [10, -10],
           deps: [8],
           id: ['00000000']
         }, {
           name: 'N12 Dungeoneer',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Robber`s Eye also works in dungeons and lasts three times as long.'],
+          req: [60],
           pos: [10, -10],
           deps: [9, 11],
           id: ['00000000']
         }, {
           name: 'N13 Treasure Hunter',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Increases the chance of finding an additional weapon or armor item in many dungeon chests from 10% to 15%.'],
+          req: [90],
           pos: [10, -10],
           deps: [10, 12],
           id: ['00000000']
         }, {
           name: 'N14 Bear Traps',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Able to pick up Bear Traps or create them at a Forge or Anvil, and drop them from your inventory to place them. The teeth of placed Bear Traps deal 2 points of damage per level of Lockpicking. You can only pick up and carry two Bear Traps at a time.'],
+          req: [20],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N15 Lockjaw',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your Bear Traps stagger victims struck by the teeth, reducing their armor rating by 10 points per level of Lockpicking for 5 seconds.'],
+          req: [40],
           pos: [10, -10],
           deps: [14],
           id: ['00000000']
         }, {
           name: 'N16 Bait',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Bait" power. At will, lures the nearest hostile target within 75 feet to the location of the nearest Bear Trap placed within 50 feet (not during combat or conversation). Lasts 30 seconds.'],
+          req: [70],
           pos: [10, -10],
           deps: [15],
           id: ['00000000']
         }, {
           name: 'N17 The Revenge',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You can pick up and carry 3 Bear Traps.'],
+          req: [80],
           pos: [10, -10],
           deps: [16],
           id: ['00000000']
         }, {
           name: 'N18 Big Game Hunter',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Placed Bear Traps are 20% bigger and more likely to successfully hit small or fast moving targets. They also rearm themselves 2.5 seconds after being triggered.'],
+          req: [50],
           pos: [10, -10],
           deps: [15],
           id: ['00000000']
         }, {
           name: 'N19 Bushwhack',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['If the victim of your Bear Trap is not detecting you, the trap is five times as effective.'],
+          req: [80],
           pos: [10, -10],
           deps: [16, 18],
           id: ['00000000']
         }, {
           name: 'N20 Dragon`s Teeth',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When placing a Bear Trap, you may choose to add an extra effect: Poison, Drain Magicka, Drain Stamina, Slow, Banish or Turn Undead. This effect is triggered when a victim is struck by the teeth and takes damage.'],
+          req: [100],
           pos: [10, -10],
           deps: [17, 19],
           id: ['00000000']
