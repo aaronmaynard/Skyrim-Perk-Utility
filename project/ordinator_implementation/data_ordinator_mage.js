@@ -34,7 +34,7 @@ Multiply final result by 5
           desc: ['Illusion spells cost 35% less Magicka, Illusion spells last 0.5% longer per level of Illusion, and mind affecting Illusion spells (Calm, Fear, Frenzy, Rally) are 0.1 points stronger per level of Illusion.','Illusion spells cost 50% less Magicka, Illusion spells last 1% longer per level of Illusion, and mind affecting Illusion spells (Calm, Fear, Frenzy, Rally) are 0.2 points stronger per level of Illusion.'],
           req: [0, 20],
           pos: [0, 0],
-          id: ['00000000', '00000000']
+          id: ['__0148FE', '__0149D4']
         }, {
           name: 'N1 - Illusion Dual Casting',
           levels: 1,
@@ -42,7 +42,7 @@ Multiply final result by 5
           req: [20],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['000153D0']
         }, {
           name: 'N2 - Quiet Before the Storm',
           levels: 2,
@@ -50,7 +50,7 @@ Multiply final result by 5
           req: [40, 60],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000', '00000000']
+          id: ['000581FD', '__01FC99']
         }, {
           name: 'N3 - Night Eye',
           levels: 1,
@@ -58,7 +58,7 @@ Multiply final result by 5
           req: [30],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['__01B5B3']
         }, {
           name: 'N4 - Ghost of the Tenth Eye',
           levels: 1,
@@ -66,7 +66,7 @@ Multiply final result by 5
           req: [90],
           pos: [10, -10],
           deps: [3],
-          id: ['00000000']
+          id: ['__01F711']
         }, {
           name: 'N5 - Dream Theif',
           levels: 1,
@@ -74,7 +74,7 @@ Multiply final result by 5
           req: [20],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['__01DBD7']
         }, {
           name: 'N6 - Kindred Mage',
           levels: 1,
@@ -82,7 +82,7 @@ Multiply final result by 5
           req: [40],
           pos: [10, -10],
           deps: [5],
-          id: ['00000000']
+          id: ['000581E2']
         }, {
           name: 'N7 - Fickle Fate',
           levels: 1,
@@ -90,7 +90,7 @@ Multiply final result by 5
           req: [50],
           pos: [10, -10],
           deps: [6],
-          id: ['00000000']
+          id: ['000581E1']
         }, {
           name: 'N8 - Master of the Mind',
           levels: 1,
@@ -98,7 +98,7 @@ Multiply final result by 5
           req: [60],
           pos: [10, -10],
           deps: [7],
-          id: ['00000000']
+          id: ['00059B76']
         }, {
           name: 'N9 - Dream Charm',
           levels: 1,
@@ -106,7 +106,7 @@ Multiply final result by 5
           req: [70],
           pos: [10, -10],
           deps: [6],
-          id: ['00000000']
+          id: ['__01F18E']
         }, {
           name: 'N10 - Dream Geas',
           levels: 1,
@@ -114,7 +114,7 @@ Multiply final result by 5
           req: [90],
           pos: [10, -10],
           deps: [9],
-          id: ['00000000']
+          id: ['__01E143']
         }, {
           name: 'N11 - Commanding Presence',
           levels: 1,
@@ -122,7 +122,7 @@ Multiply final result by 5
           req: [30],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['__01F708']
         }, {
           name: 'N12 - Crown of the False King',
           levels: 1,
@@ -130,7 +130,7 @@ Multiply final result by 5
           req: [40],
           pos: [10, -10],
           deps: [11],
-          id: ['00000000']
+          id: ['__02DB9A']
         }, {
           name: 'N13 - Imperious Splendor',
           levels: 1,
@@ -138,7 +138,7 @@ Multiply final result by 5
           req: [60],
           pos: [10, -10],
           deps: [12],
-          id: ['00000000']
+          id: ['__02020E']
         }, {
           name: 'N14 - Protect Your God',
           levels: 1,
@@ -146,7 +146,7 @@ Multiply final result by 5
           req: [80],
           pos: [10, -10],
           deps: [13],
-          id: ['00000000']
+          id: ['__020204']
         }, {
           name: 'N15 - Imposing Presence',
           levels: 1,
@@ -154,7 +154,7 @@ Multiply final result by 5
           req: [30],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['__01DBC9']
         }, {
           name: 'N16 - Shadow Refuge',
           levels: 1,
@@ -162,7 +162,7 @@ Multiply final result by 5
           req: [70],
           pos: [10, -10],
           deps: [16],
-          id: ['00000000']
+          id: ['__01F70E']
         }, {
           name: 'N17 - Wilting',
           levels: 1,
@@ -170,7 +170,7 @@ Multiply final result by 5
           req: [40],
           pos: [10, -10],
           deps: [15],
-          id: ['00000000']
+          id: ['00059B77']
         }, {
           name: 'N18 - Neverworld',
           levels: 1,
@@ -178,7 +178,7 @@ Multiply final result by 5
           req: [70],
           pos: [10, -10],
           deps: [17],
-          id: ['00000000']
+          id: ['__0B22DB']
         }, {
           name: 'N19 - Terror',
           levels: 1,
@@ -186,7 +186,7 @@ Multiply final result by 5
           req: [50],
           pos: [10, -10],
           deps: [17],
-          id: ['00000000']
+          id: ['00059B78']
         }, {
           name: 'N20 - Soulcrusher',
           levels: 1,
@@ -194,7 +194,7 @@ Multiply final result by 5
           req: [80],
           pos: [10, -10],
           deps: [19],
-          id: ['00000000']
+          id: ['__0B22DC']
         }, {
           name: 'N21 - Pandemonium',
           levels: 1,
@@ -202,7 +202,7 @@ Multiply final result by 5
           req: [60],
           pos: [10, -10],
           deps: [19],
-          id: ['00000000']
+          id: ['000C44B5']
         }, {
           name: 'N22 - Nightfall',
           levels: 1,
@@ -210,7 +210,7 @@ Multiply final result by 5
           req: [90],
           pos: [10, -10],
           deps: [21],
-          id: ['00000000']
+          id: ['__0B22DD']
         }, {
           name: 'N23 - The Reaper Comes',
           levels: 1,
@@ -218,7 +218,7 @@ Multiply final result by 5
           req: [70],
           pos: [10, -10],
           deps: [17],
-          id: ['00000000']
+          id: ['__01F70F']
         }, {
           name: 'N24 - Lamb to the Slaughter',
           levels: 1,
@@ -226,7 +226,7 @@ Multiply final result by 5
           req: [80],
           pos: [10, -10],
           deps: [23],
-          id: ['00000000']
+          id: ['__02E672']
         }, {
           name: 'N25 - Heavy Weighs the Tapestry',
           levels: 1,
@@ -234,7 +234,7 @@ Multiply final result by 5
           req: [90],
           pos: [10, -10],
           deps: [24],
-          id: ['00000000']
+          id: ['__01F19D']
         }, {
           name: 'N26 - Entice Barter',
           levels: 1,
@@ -242,7 +242,7 @@ Multiply final result by 5
           req: [30],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['__01DBD6']
         }, {
           name: 'N27 - Nemesis',
           levels: 1,
@@ -250,7 +250,7 @@ Multiply final result by 5
           req: [50],
           pos: [10, -10],
           deps: [15, 26],
-          id: ['00000000']
+          id: ['__01F194']
         }, {
           name: 'N28 - Blind Guardian',
           levels: 1,
@@ -258,7 +258,7 @@ Multiply final result by 5
           req: [90],
           pos: [10, -10],
           deps: [27],
-          id: ['00000000']
+          id: ['__01F722']
         }, {
           name: 'N29 - Wraithwalker',
           levels: 1,
@@ -266,7 +266,7 @@ Multiply final result by 5
           req: [100],
           pos: [10, -10],
           deps: [25, 28],
-          id: ['00000000']
+          id: ['__01F71B']
         }
       ]
     }, {

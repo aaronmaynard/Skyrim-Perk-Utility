@@ -38,7 +38,7 @@ If all items have been checked, the perk will be written off.
 |   Destruction   |              |          |              |          |
 |   Enchanting    |      ✔️      |    ✔️    |              |          |
 |   Heavy Armor   |      ✔️      |    ✔️    |              |          |
-|   Illusion      |      ✔️      |    ✔️    |              |          |
+|   Illusion      |      ✔️      |    ✔️    |              |    ✔️    |
 |   Light Armor   |      ✔️      |    ✔️    |              |          |
 |   Lockpicking   |      ✔️      |    ✔️    |              |          |
 |   One-Handed    |      ✔️      |          |              |          |
@@ -49,3 +49,10 @@ If all items have been checked, the perk will be written off.
 |   Speech        |      ✔️      |    ✔️    |     ✔️       |          |
 |   Two-Handed    |      ✔️      |          |     ✔️       |          |
 
+
+## Note about Perk ID's
+Because we cannot tell where you have installed Ordinator in your load order, we cannot give you the full ID to run your script. What we <i>have</i> done is make is as easy as possible for you to run the script that fits your load order. You will notice that some perk ID's look like this `__0148FE`, this means that the ID will change depending on your load order.  You can tell which values will replace the beginning portion of the ID's by viewing your load order. For example: 
+
+![loadorder](https://i.imgur.com/2wf3l7H.png)
+
+In this image you can see that the Whistling Mine.esp has load order ID of `15`, this is <b style="color:red;">not</b> the 15th mod in the load order! The easiest way to find your load order if you are not aware how hex counting works is using a mod manager such as Nexus.  If you prefer to use the in game load order, you can use this image as a reference as to what your mod may be.  In the documents you download, you can `CTRL+F` on PC, `CONTROL+F` on Mac, and replace the two underscores `__blabla` with your load order `06blabla` id.
