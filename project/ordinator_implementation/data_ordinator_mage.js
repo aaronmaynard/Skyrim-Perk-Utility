@@ -274,39 +274,599 @@ Multiply final result by 5
       cname: 'conjuration',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Conjuration Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Cujuration Dual Casting',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-40, -5],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Planemeld',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-65, -35],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Signed in Blood',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-95, -60],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Atromancy',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-75, -75],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Pact Magic',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-85, -100],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Maelstrom',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-80, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Elemental Potency',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-65, -130],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Unleash Hell',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-70, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Summon Resist',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-55, -155],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 - March of Oblivion',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-45, -175],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Ravenous Dead',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -55],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Edge of Oblivion',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-60, -100],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Preservation',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -90],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Undead Crown',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-30, -110],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N15 - A Plague Upon Thee',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Corpse Gas',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-45, -135],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Necromaster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Shocked to Life',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-25, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Bone Collector',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Dead Tide',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-10, -65],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Reap and Sow',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-25, -95],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Barrow Lord',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -100],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N23 - Skeleton Mages',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-10, -125],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Fire Ritual',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-20, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Conjure Alter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N26 - King of Bones',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -175],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N27 - Puppet Master',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [0, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N28 - Mystic Binding',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N29 - Soul Raider',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -60],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N30 - Rend From This World',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [35, -85],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N31 - Void Burn',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [40, -110],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N32 - Hollow Binding',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [35, -130],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N33 - Dark Wispers',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N34 - Brand of the Necromaster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N35 - Covenant of Coldharbour',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [40, -165],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N36 - Feed the Monster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -65],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N37 - Rat King',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -25],
           deps: [0],
           id: ['00000000']
         }
-      ]
+	  ]
     }, {
       name: 'Destruction',
       cname: 'destruction',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Destruction Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Destruction Dual Casting',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-45, -5],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Force of Nature',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-60, -35],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Robe of the Magi',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-95, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Elemental Specialization',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-95, -75],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Combustion',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-45, -60],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Scarring Burns',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-65, -80],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Flash Fire',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-95, -115],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Pyromancer Ascension',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-80, -125],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Conflagration',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-60, -100],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Scorched Earth',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-75, -140],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - World in Flames',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-85, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Outburst',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-65, -155],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Cataclysm',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-65, -175],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Merciless Cold',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -65],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Frostfall',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -85],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Shatter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-55, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Crystalize',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-25, -115],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Iced Earth',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -130],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Hypothermia',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Winter`s Majesty',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-55, -175],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Exhaust',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -165],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Glacial Prison',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-30, -190],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N23 - Ionized Path',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -55],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Satic Field',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -85],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Magnetize',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-10, -110],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N26 - Arc Burn',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [20, -105],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N27 - Nova Charge',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [0, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N28 - Electroconvulsions',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-5, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N29 - Stormblast',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N30 - Show Them All',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [0, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N31 - Absolute Power',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-5, -185],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N32 - Runecaster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [50, -80],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N33 - Ancient Seals',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [30, -130],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N34 - War of the Elementals',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -40],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N35 - Harsh Lesson',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [45, -5],
           deps: [0],
           id: ['00000000']
         }
@@ -593,18 +1153,218 @@ Multiply final result by 5
       cname: 'alteration',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Alteration Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Alteration Dual Casting',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-30, -10],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Mage Armor',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [50, -20],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Distorted Shape',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [85, -40],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Geomancer',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-30, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Philosopher`s Stone',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-10, -70],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Vancian Magic',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [30, -65],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Wild Shrines',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [50, -60],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Energy Sheild',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [75, -75],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Spellblade',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -85],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Alter Self: Resistances',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -95],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Throne of Nirn',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-55, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Command Lock',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-25, -115],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Quadratic Wizard',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [30, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Intuituve Magic',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -125],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Welloc`s Dormant Arcana',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [65, -110],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Home Mythal',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Alter Self: Attributes',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -135],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Energy Roil',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Dungeon Master',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [35, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N20 - The Monarch',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [70, -140],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Aurification',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-50, -155],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Emergency Teleport',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N23 - Dimension Door',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N24 - Nullifier',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N25 - Rend Resistances',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -165],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N26 - Arcane Thesis',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [65, -175],
           deps: [0],
           id: ['00000000']
         }
