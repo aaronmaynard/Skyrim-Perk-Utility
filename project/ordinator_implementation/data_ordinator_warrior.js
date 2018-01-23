@@ -437,18 +437,154 @@ Multiply final result by 5
       cname: 'block',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 - Block Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Timed Block',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-60, -35],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Poke the Dragon',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-85, -60],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Apocalypse Proof',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-75, -90],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Timing Streak',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-65, -115],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Break Their Teeth',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -135],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Deliverance',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-30, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Dragon Scales',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Dragon Tail',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-25, -130],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Block Runner',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Hold the Line',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -130],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Quick Reflexes',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-5, -60],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 Deflect Arrows',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Dominion',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -95],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Power Bash',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [80, -50],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Skull Rattler',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [70, -100],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Mocking Blow',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -135],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Cast Aside',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [35, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Unstoppable Force',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -155],
           deps: [0],
           id: ['00000000']
         }
@@ -980,18 +1116,178 @@ Multiply final result by 5
       cname: 'marksman',
       perks: [
         {
-          name: 'Node 0',
+          name: 'N0 -Archery Mastery',
           levels: 5,
           desc: ['Description'],
           req: [0, 20, 40, 60, 80],
           pos: [0, 0],
           id: ['00000000', '00000000', '00000000', '00000000', '00000000']
         }, {
-          name: 'Node X',
+          name: 'N1 - Long Shot',
           levels: 1,
           desc: ['Description'],
           req: [5],
-          pos: [10, -10],
+          pos: [-60, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N2 - Thread the Needle',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-75, -95],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N3 - Ambush Predator',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-75, -140],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N4 - Three Crows',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-60, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N5 - Perfect Aim',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -185],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N6 - Crippling Shot',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-40, -80],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N7 - Pinning Shot',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-45, -110],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N8 - Beak abd Talon',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-50, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N9 - Clean Kill',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -50],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Snipe',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-35, -125],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Hawkeye',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-15, -165],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Quick Shot',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [-10, -120],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Hailstorm',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [5, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Ranger',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -110],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Focus on the Prey',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - Lion`s Arrow',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -180],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Steady Hand',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [45, -55],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Hunter`s Discipline',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [60, -95],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Trick Arrows',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [30, -160],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N20 - Hunt Together',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [40, -175],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Wingstrike',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [50, -5],
           deps: [0],
           id: ['00000000']
         }
