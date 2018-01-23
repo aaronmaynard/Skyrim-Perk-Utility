@@ -29,13 +29,13 @@ If all items have been checked, the perk will be written off.
 
 | Perk            | Added to .js | Detailed | Nodes Mapped | ID Ready |
 | :---            |    :---:     |   :---:  |     :---:    |   :---:  |
-| ~~Some_Perk~~   |      ✔️      |    ✔️    |     ✔️      |    ✔️    |
-|   Alchemy       |              |          |              |          |
-|   Alteration    |              |          |              |          |
-|   Archery       |              |          |              |          |
-|   Block         |              |          |              |          |
-|   Conjuring     |              |          |              |          |
-|   Destruction   |              |          |              |          |
+| ~~Some_Perk~~   |      ✔️      |    ✔️    |      ✔️     |    ✔️    |
+|   Alchemy       |      ✔️      |          |      ✔️      |          |
+|   Alteration    |      ✔️      |          |      ✔️      |          |
+|   Archery       |      ✔️      |          |      ✔️      |          |
+|   Block         |      ✔️      |          |      ✔️      |          |
+|   Conjuring     |      ✔️      |          |      ✔️      |          |
+|   Destruction   |      ✔️      |          |      ✔️      |          |
 |   Enchanting    |      ✔️      |    ✔️    |              |          |
 |   Heavy Armor   |      ✔️      |    ✔️    |              |          |
 |   Illusion      |      ✔️      |    ✔️    |              |    ✔️    |
