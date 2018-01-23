@@ -6,69 +6,180 @@
       cname: 'alchemy',
       perks: [
         {
-          name: 'Alchemist',
-          levels: 5,
-          desc: ['Potions and poisons you make are 20% stronger.', 'Potions and poisons you make are 40% stronger.', 'Potions and poisons you make are 60% stronger.', 'Potions and poisons you make are 80% stronger.', 'Potions and poisons you make are 100% stronger.'],
-          req: [0, 20, 40, 60, 80],
-          pos: [0, 0],
-          id: ['000BE127', '000C07CA', '000C07CB', '000C07CC', '000C07CD']
+          name: 'N0 - Alchemy Mastery',	// The name of the perk, ie: "Alchemist".
+          levels: 5,		// The number of times this perk can be developed. If set to anything other then one, progress will show.
+          desc: ['Description'],	// Description of what the perk does, ie: "Potions and poisons you make are 20% stronger.".
+          req: [0, 20, 40, 60, 80],	// The skill level required to obtain the level(s) of the perk.
+          pos: [0, 0],				// The position on the canvas. The canvas reposition based on the balance point.
+          id: ['00000000', '00000000', '00000000', '00000000', '00000000']	// The perk ID's. The number of perk ID's should match the number of levels.
         }, {
-          name: 'Physician',
-          desc: ['Potions you mix that restore Health, Magicka or Stamina are 25% more powerful.'],
-          req: [20],
-          pos: [110, -21],
+          name: 'N1 - Elemental Oil',	// NODE TEMPLATE
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [0, -85],
           deps: [0],
-          id: ['00058215']
+          id: ['00000000']
         }, {
-          name: 'Poisoner',
-          desc: ['Poisons you mix are 25% more effective.'],
-          req: [30],
-          pos: [20, -70],
-          deps: [1],
-          id: ['00058217']
+          name: 'N2 - The Alchemist`s Cookbook',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [10, -125],
+          deps: [0],
+          id: ['00000000']
         }, {
-          name: 'Benefactor',
-          desc: ['Potions you mix with beneficial effects have an additional 25% greater magnitude.'],
-          req: [30],
-          pos: [87, -71],
-          deps: [1],
-          id: ['00058216']
+          name: 'N3 - Walking Disaster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -160],
+          deps: [0],
+          id: ['00000000']
         }, {
-          name: 'Concentrated Poison',
-          desc: ['Poisins applied to weapons last for twice as many hits.'],
-          req: [60],
-          pos: [24, -110],
-          deps: [2],
-          id: ['00105F2F']
+          name: 'N4 - Advanced Lab',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [15, -70],
+          deps: [0],
+          id: ['00000000']
         }, {
-          name: 'Experimenter',
-          levels: 3,
-          desc: ['Eating an ingredient reveals first two effects.', 'Eating an ingredient reveals first three effects.', 'Eating an ingredient reveals first four effects.'],
-          req: [50, 70, 90],
-          pos: [77, -111],
-          deps: [3],
-          id: ['00058218', '00105F2A', '00105F2B']
+          name: 'N5 - Lab Skeever',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [20, -100],
+          deps: [0],
+          id: ['00000000']
         }, {
-          name: 'Green Thumb',
-          desc: ['Two ingredients are gathered from plants.'],
-          req: [70],
-          pos: [31, -163],
-          deps: [4],
-          id: ['00105F2E']
+          name: 'N6 - Double Toil and Trouble',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -140],
+          deps: [0],
+          id: ['00000000']
         }, {
-          name: 'Snakeblood',
-          desc: ['50% resistance to all poisons.'],
-          req: [80],
-          pos: [70, -178],
-          deps: [4, 5],
-          id: ['00105F2C']
+          name: 'N8 - Experimenter',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [35, -75],
+          deps: [0],
+          id: ['00000000']
         }, {
-          name: 'Purity',
-          desc: ['All negative effects are removed from created potions, and all positive effects are removed from created poisons.'],
-          req: [100],
-          pos: [58, -216],
-          deps: [7],
-          id: ['0005821D']
+          name: 'N9 - Green Thumb',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [40, -125],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N10 - Pure Mixture',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [40, -145],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N11 - Stimulants',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -50],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N12 - Crimson Haze',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [55, -100],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N13 - Maenad',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [60, -140],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N14 - Witchmaster',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [50, -155],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N15 - Chymical Wedding',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [25, -165],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N16 - That Which Does Not Kill You...',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [50, -195],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N17 - Poisoner',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [85, -45],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N18 - Bottomless Cup',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [75, -95],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N19 - Amplify Lethality',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [65, -150],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N20 - World Serpent',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [70, -170],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Alkahest',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [90, -115],
+          deps: [0],
+          id: ['00000000']
+        }, {
+          name: 'N22 - Physician',
+          levels: 1,
+          desc: ['Description'],
+          req: [5],
+          pos: [80, -10],
+          deps: [0],
+          id: ['00000000']
         }
       ]
     }, {
