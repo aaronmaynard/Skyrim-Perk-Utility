@@ -5,13 +5,16 @@ The Skyrim Perk Utility allows you to set (or reset) which perks you have active
 Access the utility here: 
 [Skyrim Perk Utility](https://aaronmaynard.github.io/Skyrim-Perk-Utility/ "Access utility")
 
+
+[![GitHub forks](https://img.shields.io/github/forks/aaronmaynard/Skyrim-Perk-Utility.svg)](https://github.com/aaronmaynard/Skyrim-Perk-Utility/network)
+[![GitHub stars](https://img.shields.io/github/stars/aaronmaynard/Skyrim-Perk-Utility.svg)](https://github.com/aaronmaynard/Skyrim-Perk-Utility/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/aaronmaynard/Skyrim-Perk-Utility.svg)]()
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/aaronmaynard/Obsidian-Tools.svg)]()
+[![Pull Requests](https://img.shields.io/badge/PR-welcome-orange.svg)]()
 [![license](https://img.shields.io/github/license/aaronmaynard/skyrim-perk-utility.svg)]()
 [![GitHub last commit](https://img.shields.io/github/last-commit/aaronmaynard/Skyrim-Perk-Utility.svg)]()
 [![GitHub top language](https://img.shields.io/github/languages/top/aaronmaynard/Skyrim-Perk-Utility.svg)]()
 [![GitHub language count](https://img.shields.io/github/languages/count/aaronmaynard/Skyrim-Perk-Utility.svg)]()
-[![Pull Requests](https://img.shields.io/badge/PR-welcome-orange.svg)]()
 
 ### Skyrim Console:
 Press the <b>~</b> key while in game to access the console.  Then type the following
