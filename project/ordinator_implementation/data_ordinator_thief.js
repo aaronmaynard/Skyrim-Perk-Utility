@@ -6,177 +6,177 @@
       cname: 'alchemy',
       perks: [
         {
-          name: 'N0 - Alchemy Mastery',	// The name of the perk, ie: "Alchemist".
-          levels: 5,		// The number of times this perk can be developed. If set to anything other then one, progress will show.
-          desc: ['Description'],	// Description of what the perk does, ie: "Potions and poisons you make are 20% stronger.".
-          req: [0, 20, 40, 60, 80],	// The skill level required to obtain the level(s) of the perk.
-          pos: [0, 0],				// The position on the canvas. The canvas reposition based on the balance point.
-          id: ['00000000', '00000000', '00000000', '00000000', '00000000']	// The perk ID's. The number of perk ID's should match the number of levels.
+          name: 'N0 - Alchemy Mastery',
+          levels: 2,
+          desc: ['Potions and poisons you make are 20% stronger.','Potions and poisons you make are 40% stronger.'],
+          req: [0, 20],
+          pos: [0, 0],
+          id: ['00000000', '00000000']
         }, {
-          name: 'N1 - Elemental Oil',	// NODE TEMPLATE
+          name: 'N1 - Elemental Oil',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You may choose a power: "Fire Oil", "Frost Oil" or "Shock Oil". At will, create a pool of oil that lasts 20 seconds. It reacts violently when struck by a projectile or explosion, exploding and dealing damage equal to your Alchemy skill level.'],
+          req: [40],
           pos: [0, -85],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N2 - The Alchemist`s Cookbook',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You may choose a second Elemental Oil power. In addition to "Fire Oil", "Frost Oil" and "Shock Oil", you may also choose "Calming Oil", "Frenzy Oil", "Paralysis Oil" or "Hallowed Oil".'],
+          req: [60],
           pos: [10, -125],
-          deps: [0],
+          deps: [1],
           id: ['00000000']
         }, {
           name: 'N3 - Walking Disaster',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['In combat, periodically spill a random oil puddle on the ground. Puddles last 60 seconds.'],
+          req: [90],
           pos: [15, -160],
-          deps: [0],
+          deps: [2],
           id: ['00000000']
         }, {
           name: 'N4 - Advanced Lab',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You may choose to upgrade one alchemy lab to an Advanced version for 2500 gold. Potions you mix are 25% stronger at an Advanced Lab. Can be "Disassembled" by sneaking, allowing you to upgrade another.'],
+          req: [30],
           pos: [15, -70],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N5 - Lab Skeever',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['For 20 seconds after using any alchemy lab, beneficial potions you drink last 15 times longer and are 25% stronger.'],
+          req: [50],
           pos: [20, -100],
-          deps: [0],
+          deps: [4],
           id: ['00000000']
         }, {
           name: 'N6 - Double Toil and Trouble',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You mix twice as many potions at your Advanced Lab.'],
+          req: [70],
           pos: [25, -140],
-          deps: [0],
+          deps: [5],
           id: ['00000000']
         }, {
-          name: 'N8 - Experimenter',
+          name: 'N7 - Experimenter',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Eating an ingredient reveals all effects.'],
+          req: [30],
           pos: [35, -75],
           deps: [0],
           id: ['00000000']
         }, {
-          name: 'N9 - Green Thumb',
+          name: 'N8 - Green Thumb',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Twice as many ingredients are gathered from most harvestable objects.'],
+          req: [60],
           pos: [40, -125],
-          deps: [0],
+          deps: [5, 7],
           id: ['00000000']
         }, {
-          name: 'N10 - Pure Mixture',
+          name: 'N9 - Pure Mixture',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['All negative effects are removed from created potions, and all positive effects are removed from created poisons.'],
+          req: [70],
           pos: [40, -145],
-          deps: [0],
+          deps: [8],
           id: ['00000000']
         }, {
-          name: 'N11 - Stimulants',
+          name: 'N10 - Stimulants',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you use a beneficial potion or ingredient, you regenerate 2% of your Magicka and Stamina per second for 30 seconds.'],
+          req: [20],
           pos: [55, -50],
           deps: [0],
           id: ['00000000']
         }, {
-          name: 'N12 - Crimson Haze',
+          name: 'N11 - Crimson Haze',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Stimulants also increases movement speed by 10% for its duration.'],
+          req: [40],
           pos: [55, -100],
-          deps: [0],
+          deps: [10],
           id: ['00000000']
         }, {
-          name: 'N13 - Maenad',
+          name: 'N12 - Maenad',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Magicka and Stamina are increased by 50 points when you are under the effect of a beneficial potion or ingredient, but reduced by 25 points when you are not.'],
+          req: [60],
           pos: [60, -140],
-          deps: [0],
+          deps: [11],
           id: ['00000000']
         }, {
-          name: 'N14 - Witchmaster',
+          name: 'N13 - Witchmaster',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you use a beneficial potion or ingredient, 50% chance to receive a powerful side effect, randomly chosen from a range of 40 side effects.'],
+          req: [80],
           pos: [50, -155],
-          deps: [0],
+          deps: [11],
           id: ['00000000']
         }, {
-          name: 'N15 - Chymical Wedding',
+          name: 'N14 - Chymical Wedding',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Witchmaster side effects have 50% chance to cause side effects themselves.'],
+          req: [90],
           pos: [25, -165],
-          deps: [0],
+          deps: [13],
           id: ['00000000']
         }, {
-          name: 'N16 - That Which Does Not Kill You...',
+          name: 'N15 - Poisoner',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [50, -195],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N17 - Poisoner',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Poisons you mix are 1% more powerful per level of Alchemy.'],
+          req: [30],
           pos: [85, -45],
           deps: [0],
           id: ['00000000']
         }, {
-          name: 'N18 - Bottomless Cup',
+          name: 'N16 - Bottomless Cup',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Poisons applied to weapons last for one additional hit per 10 levels of Alchemy.'],
+          req: [40],
           pos: [75, -95],
-          deps: [0],
+          deps: [15],
           id: ['00000000']
         }, {
-          name: 'N19 - Amplify Lethality',
+          name: 'N17 - Alkahest',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [65, -150],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N20 - World Serpent',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
-          pos: [70, -170],
-          deps: [0],
-          id: ['00000000']
-        }, {
-          name: 'N21 - Alkahest',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your poisons are highly corrosive, enabling you to ignore 40% of the armor rating of an affected target for their duration.'],
+          req: [50],
           pos: [90, -115],
-          deps: [0],
+          deps: [15],
           id: ['00000000']
         }, {
-          name: 'N22 - Physician',
+          name: 'N18 - Amplify Lethality',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Amplify Lethality" power. Once a day, point at a victim to silently reduce their poison resistance by 250% for 10 seconds.'],
+          req: [80],
+          pos: [65, -150],
+          deps: [16, 17],
+          id: ['00000000']
+        }, {
+          name: 'N19 - World Serpent',
+          levels: 1,
+          desc: ['When you shout, your blood turns poisonous for 15 seconds. The next time you get hit with a weapon, retaliate with a powerful poisonous strike that deals 50 points of poison damage per second for 10 seconds.'],
+          req: [90],
+          pos: [70, -170],
+          deps: [13, 18],
+          id: ['00000000']
+        }, {
+          name: 'N20 - That Which Does Not Kill You...',
+          levels: 1,
+          desc: ['Upon learning this perk, you imbibe a deadly toxin, taking 150 damage per second. If you survive for 60 seconds, you receive 3 perk points and a permanent 25% bonus to all potions and poisons you make.'],
+          req: [100],
+          pos: [50, -195],
+          deps: [14, 19],
+          id: ['00000000']
+        }, {
+          name: 'N21 - Physician',
+          levels: 1,
+          desc: ['You may choose a type of beneficial potion: Health, Magicka or Stamina. Potions you mix that restore or fortify the chosen attribute are 50% stronger.'],
+          req: [20],
           pos: [80, -10],
           deps: [0],
           id: ['00000000']
@@ -194,7 +194,7 @@
           pos: [0, 0],
           id: ['00000000']
         }
-      ]
+      ]	
     }, {
       name: 'Conjuration',
       cname: 'conjuration',
@@ -533,208 +533,208 @@
       perks: [
         {
           name: 'N0 - Sneak Mastery',
-          levels: 5,
-          desc: ['Description'],
-          req: [0, 20, 40, 60, 80],
+          levels: 2,
+          desc: ['Sneaking is 15% more effective. Sneak success depends on visibility (movement and light level), sound (movement and armor weight), skill level and distance.','Sneaking is 30% more effective. Sneak success depends on visibility (movement and light level), sound (movement and armor weight), skill level and distance.'],
+          req: [0, 20],
           pos: [0, 0],
-          id: ['00000000', '00000000', '00000000', '00000000', '00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N1 - Demolition Job',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['All Destruction spells and scrolls are 1% more powerful per level of Sneak if the target is not detecting the caster (2% for rune spells).'],
+          req: [30],
           pos: [45, -15],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N2 - Spot Detection',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Spot Detection" power. At will, outlines all humanoids within 150 feet that are detecting you with a green glow. Lasts 30 seconds.'],
+          req: [30],
           pos: [-45, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N3 - Light Foot',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You won`t trigger pressure plates.'],
+          req: [50],
           pos: [-75, -70],
           deps: [2],
           id: ['00000000']
         }, {
           name: 'N4 - Sneak Attack',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Sneak attacks with one-handed weapons deal 100% more damage. Sneak attacks with any other weapon or fists deal 25% more damage.'],
+          req: [20],
           pos: [45, -50],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N5 - Assasin`s Blade',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Sneak attacks with daggers deal 1% more damage per level of Sneak.'],
+          req: [40],
           pos: [70, -85],
           deps: [4],
           id: ['00000000']
         }, {
           name: 'N6 - Backstab',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
+          levels: 2,
+          desc: ['You deal 25% more damage and critical damage with daggers when striking a target from behind.','You deal 50% more damage and critical damage with daggers when striking a target from behind.'],
+          req: [50,70],
           pos: [60, -110],
           deps: [5],
-          id: ['00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N7 - Problem Solver',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Sneak attacks deal 10% more damage for each 200 points of Health the target has, up to 50% more damage.'],
+          req: [80],
           pos: [40, -135],
           deps: [4],
           id: ['00000000']
         }, {
           name: 'N8 - Cloak and Dagger',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Breaking invisibility with a power attack is a guaranteed critical strike that deals 50% more critical damage.'],
+          req: [90],
           pos: [55, -155],
           deps: [7],
           id: ['00000000']
         }, {
           name: 'N9 - Laughing Ghost',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Laughing Ghost" power. At will, while sneaking, teleport through the shadows behind a target to attempt a sneak power attack with your right weapon that deals double sneak attack damage. The target must be out of combat.'],
+          req: [100],
           pos: [45, -175],
           deps: [7],
           id: ['00000000']
         }, {
           name: 'N10 - Tripwire',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Tripwire" power. At will, places a tripwire in front of you for 120 seconds. It snaps when tripped, knocking all targets hit by it to the floor.'],
+          req: [20],
           pos: [-50, -45],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N11 - Whiplash',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Tripwire also reduces armor rating by 1000 points for 5 seconds.'],
+          req: [40],
           pos: [-40, -85],
           deps: [10],
           id: ['00000000']
         }, {
           name: 'N12 - Silent Roll',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Sprinting while sneaking executes a silent forward roll.'],
+          req: [30],
           pos: [-25, -60],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N13 - Dynamic Entry',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Performing a silent roll increases your weapon damage by 40% and unarmed damage by 40 points for 3 seconds.'],
+          req: [40],
           pos: [-15, -95],
           deps: [12],
           id: ['00000000']
         }, {
           name: 'N14 - Dodge Roll',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Performing a silent roll makes you ethereal for 1 second, causing all incoming attacks and spells to miss.'],
+          req: [60],
           pos: [-25, -125],
           deps: [13],
           id: ['00000000']
         }, {
           name: 'N15 - Backup Plan',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['After being out of combat for at least 5 seconds, entering combat will place a Tripwire behind you for 60 seconds. This does not count against the limit of one Tripwire at a time.'],
+          req: [70],
           pos: [-50, -140],
           deps: [11, 14],
           id: ['00000000']
         }, {
           name: 'N16 - Greased Lightning',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['A hidden bottle enables you to leave a trail of grease whenever you perform a silent roll in combat. The grease lasts for 10 seconds and staggers running enemies, while sprinting enemies slip and fall to the ground.'],
+          req: [90],
           pos: [-35, -160],
           deps: [14],
           id: ['00000000']
         }, {
           name: 'N17 - Fog of War',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Sneaking is 15% more effective against targets that are in combat with you, or 30% if they are in combat with someone else.'],
+          req: [30],
           pos: [0, -50],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N18 - Infiltrator',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Your footsteps and equipped armor make 75% less noise when sneaking.'],
+          req: [40],
           pos: [20, -70],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N19 - Right Behind You',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You are adept at hiding in your target`s blind spot. Sneaking is 15% more effective within 30 feet and 30% more effective within 15 feet.'],
+          req: [50],
           pos: [10, -100],
           deps: [17, 18],
           id: ['00000000']
         }, {
           name: 'N20 - Disengage',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Disengage" power. Once a day, all enemies within 100 feet who are attacking you or searching for you instantly stop and resume their normal activities.'],
+          req: [60],
           pos: [-5, -115],
           deps: [19],
           id: ['00000000']
         }, {
           name: 'N21 - Clean Escape',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you stand still for 8 seconds while sneaking, enemies within 150 feet no longer search for you.'],
+          req: [70],
           pos: [30, -120],
           deps: [19],
           id: ['00000000']
         }, {
           name: 'N22 - Smokescreen',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Smokescreen" power. Once a day, creates a 35 foot cloud for 180 seconds that blinds those in the cloud, preventing them from seeing sneaking targets. Sneak attacks against them deal 50% more damage.'],
+          req: [60],
           pos: [20, -130],
           deps: [19],
           id: ['00000000']
         }, {
           name: 'N23 - Party Starter',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you gain invisibility, places a barrel of flammable booze at your location. When you lose invisibility, it explodes, dealing fire damage equal to 200% of your Sneak skill level and staggering targets. This effect has a 15 second cooldown.'],
+          req: [80],
           pos: [20, -155],
           deps: [22],
           id: ['00000000']
         }, {
           name: 'N24 - Behind Enemy Lines',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Sneaking is 15% more effective for each enemy within 100 feet that is not detecting you.'],
+          req: [80],
           pos: [-5, -150],
           deps: [14, 19],
           id: ['00000000']
         }, {
           name: 'N25 - Shadow Warrior',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Entering sneak mode in combat grants 2 seconds of invisibility, briefly leaving combat and forcing distant opponents to search for you. This effect has an 8 second cooldown.'],
+          req: [90],
           pos: [0, -175],
           deps: [24],
           id: ['00000000']
@@ -919,144 +919,144 @@
       perks: [
         {
           name: 'N0 Pickpocket Mastery',
-          levels: 5,
-          desc: ['Description'],
-          req: [0, 20, 40, 60, 80],
+          levels: 2,
+          desc: ['Adds 20% to your pickpocket chance and increases carry weight by 50 points.','Adds 40% to your pickpocket chance and increases carry weight by 100 points.'],
+          req: [0, 20],
           pos: [0, 0],
-          id: ['00000000', '00000000', '00000000', '00000000', '00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N1 Trained Rabbit',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Trained Rabbit" power. At will, silently sends out a trained rabbit to lead you to the nearest loose valuable item (armor, weapon, key, book, soul gem, ingredient). It then returns to you.'],
+          req: [20],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N2 Blood Money',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You find 10-100 more gold when looting humanoid corpses you have slain in an especially violent fashion (with an attack that dealt at least 100 more damage than their remaining Health or a killmove).'],
+          req: [20],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N3 Death`s Emperor',
-          levels: 1,
-          desc: ['Description'],
-          req: [5],
+          levels: 2,
+          desc: ['A cursed septim appears in your inventory. When someone else is in possession of the coin, your attacks deal 100% more damage and critical damage to them.','A cursed septim appears in your inventory. When someone else is in possession of the coin, your attacks deal 200% more damage and critical damage to them.'],
+          req: [40, 60],
           pos: [10, -10],
           deps: [0],
-          id: ['00000000']
+          id: ['00000000', '00000000']
         }, {
           name: 'N4 Doomed to Plunder',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Killing a victim in possession of the Death`s Emperor grants 100-300 more gold.'],
+          req: [70],
           pos: [10, -10],
           deps: [3],
           id: ['00000000']
         }, {
           name: 'N5 Mutiny',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "Mutiny" power. At will, activates the curse of the Death`s Emperor, causing whoever is in possession of the coin to attack randomly for 30 seconds. Any deaths resulting from this can`t be traced back to you.'],
+          req: [90],
           pos: [10, -10],
           deps: [4],
           id: ['00000000']
         }, {
           name: 'N6 Theif`s Eye',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['When you enter a major city, illuminates a random citizen on the streets for 300 seconds. If you interact with the target during this time, they will carry valuable items (based on your Pickpocket skill). This can only occur once every 12-60 ingame hours.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N7 Thief`s Luck',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['You may choose an item type (gold, jewelry, books, ingredients, potions, ingots, scrolls). Those illuminated by Thief`s Eye are three times more likely to carry items of your chosen type over other types.'],
+          req: [50],
           pos: [10, -10],
           deps: [6],
           id: ['00000000']
         }, {
           name: 'N8 Crime Wave',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Shortly after you pickpocket or speak with the target illuminated by Thief`s Eye, a new victim is illuminated, up to 4 times in a row.'],
+          req: [80],
           pos: [10, -10],
           deps: [7],
           id: ['00000000']
         }, {
           name: 'N9 Cutpurse',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Adds 25% to your chance to pickpocket gold, keys and jewelry.'],
+          req: [30],
           pos: [10, -10],
           deps: [0],
           id: ['00000000']
         }, {
           name: 'N10 Brotherhood Cocktail',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Silently harm enemies by placing poisons in their pockets while pickpocketing.'],
+          req: [40],
           pos: [10, -10],
           deps: [9],
           id: ['00000000']
         }, {
           name: 'N11 Trickster',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Can pickpocket equipped weapons. If the target is sleeping, can pickpocket any equipped item.'],
+          req: [70],
           pos: [10, -10],
           deps: [10],
           id: ['00000000']
         }, {
           name: 'N12 On the Run',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['After you successfully pickpocket someone, sneaking is 200% more effective and movement speed is increased by 25% for 10 seconds.'],
+          req: [40],
           pos: [10, -10],
           deps: [9],
           id: ['00000000']
         }, {
           name: 'N13 Lawless World',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Petty crimes are slowly forgotten, allowing your bounties for non-violent crimes to decay at a rate of 50% of your Pickpocket skill level each day.'],
+          req: [50],
           pos: [10, -10],
           deps: [9],
           id: ['00000000']
         }, {
           name: 'N14 Stalk the Prey',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Preparing to pickpocket (sneaking behind a victim with the pickpocket message displayed) for at least 10 seconds adds 20% to your chance to pickpocket any item.'],
+          req: [60],
           pos: [10, -10],
           deps: [12,13],
           id: ['00000000']
         }, {
           name: 'N15 You Saw Nothing',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Grants the "You Saw Nothing" power. Once a day, distract a target and others in a 40 foot radius. For 45 seconds, you will not receive a bounty if they are the only witness of your crimes. Does not prevent them from defending themselves.'],
+          req: [80],
           pos: [10, -10],
           deps: [14],
           id: ['00000000']
         }, {
           name: 'N16 Robbed Blind',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Adds the Thief`s Eye effect to You Saw Nothing.'],
+          req: [90],
           pos: [10, -10],
           deps: [15],
           id: ['00000000']
         }, {
           name: 'N17 Dragon Hoard',
           levels: 1,
-          desc: ['Description'],
-          req: [5],
+          desc: ['Whenever you sleep with 50000 or more gold in your inventory, you may choose to spend it to purchase a perk point.'],
+          req: [100],
           pos: [10, -10],
           deps: [5,8 , 14],
           id: ['00000000']
