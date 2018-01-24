@@ -6,6 +6,7 @@ html, body {
   margin: 0 0 50px 0;
   padding: 0;
   text-align: center;
+  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default;
 }
 
 .nav{
