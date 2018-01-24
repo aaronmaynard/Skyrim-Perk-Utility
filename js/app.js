@@ -514,7 +514,7 @@
     }
   };
   setCursor = function(crosshair) {
-    return document.body.style.cursor = crosshair ? 'crosshair' : 'url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default';
+    return document.body.style.cursor = crosshair ? 'url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/crosshair.cur), crosshair' : 'url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default';
   };
   moveHandler = function(e) {
     var offset, perk, perkTreeView, x, y, _i, _len, _results;
