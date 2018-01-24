@@ -6,6 +6,7 @@ html, body {
   margin: 0 0 50px 0;
   padding: 0;
   text-align: center;
+  cursor: url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default;
 }
 
 .nav{
@@ -16,9 +17,11 @@ html, body {
     padding:0;
     text-align:center;
 }
+
 .nav li{
     display:inline;
 }
+
 .nav span{
     display:inline-block;
     padding:10px;
@@ -45,7 +48,6 @@ button {
 button:hover {
   background: rgb(0,0,0);
   color: rgb(255, 153, 51);
-
 }
 
 input[type=button] {
@@ -60,7 +62,6 @@ input[type=button] {
 input[type=button]:hover {
   background: rgb(0,0,0);
   color: rgb(255, 153, 51);
-
 }
 
 h1 {
