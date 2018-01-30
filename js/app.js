@@ -513,8 +513,8 @@
       return _results;
     }
   };
-  setCursor = function(pointer) {
-    return document.body.style.cursor = pointer ? 'pointer' : 'default';
+  setCursor = function(crosshair) {
+    return document.body.style.cursor = crosshair ? 'url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/crosshair.cur), crosshair' : 'url(https://aaronmaynard.github.io/Skyrim-Perk-Utility/cursor/default.cur), default';
   };
   moveHandler = function(e) {
     var offset, perk, perkTreeView, x, y, _i, _len, _results;
@@ -538,7 +538,7 @@
       for (_i = 0, _len = perkTreeViews.length; _i < _len; _i++) {
         perkTreeView = perkTreeViews[_i];
         if (perkTreeView.hitFrame(x, y)) {
-          document.body.style.cursor = 'pointer';
+          return document.body.style.cursor = 'pointer';
           setCursor(true);
           break;
         } else {
